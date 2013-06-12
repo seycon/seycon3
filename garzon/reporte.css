@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contornor1{
+  position:relative;	
+  border:1px solid;
+  width:300px;  	
+}
+
+.textotipo1{
+  font-weight:bold;	
+  font-family: bold "Trebuchet MS", Arial;		
+  font-size:14px;
+}
+
+
+.textotipo3{
+  font-weight:bold;	
+  font-family: bold "Trebuchet MS", Arial;		
+  font-size:12px;
+}
+
+.textocabecera1{
+  font-weight:bold;	
+  font-family: bold "Trebuchet MS", Arial;		
+  font-size:14px;
+  border-bottom:1px dotted;
+  border-top:1px dotted;
+}
+
+.textocabecera2{
+  font-family: bold "Trebuchet MS", Arial;		
+  font-size:14px;
+  border-top:1px dotted;
+}
+.textocabecera3{
+  font-family: bold "Trebuchet MS", Arial;		
+  font-size:14px;
+  border-bottom:1px dotted;
+}
+
+.textotipo2{
+  font-family: bold "Trebuchet MS", Arial;		
+  font-size:12px;
+}
+
+.firma{
+  border-bottom:1px solid #000;
+  border-bottom-style:dotted;	
+}
+
+.total{
+  border-top:2px solid;
+  font-size:12px;
+}
+
+.totalCuadro{
+  border:1px solid;
+  font-size:12px;
+}
+
+.textoCabeceraAbajo{
+  font-weight:bold;	
+  font-family: bold "Trebuchet MS", Arial;		
+  font-size:14px;	
+  border-bottom:1px dotted;	
+}
+
+.linea1{
+  border-top:1px solid;	
+}

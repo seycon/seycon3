@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+.algo{
+    
+}
+.td_separador{
+    border-top: 1.5px solid;
+}
+.reporte{
+    width:100%;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+.td_nombre_sucursal{
+    font-weight: bold;
+}
+.td_titulo{
+    text-align: center;
+    background: #E6E6E6;
+    border: 1px solid;  
+    font-weight: bold;
+}
+
+.td_nota{
+    text-align: center;
+    width: 10%;
+    border-left: 1px solid;
+}
+.td_fecha{
+    text-align: center;
+    width: 10%;
+}
+.td_destino{
+    text-align: center;
+    width: 30%;
+}
+.td_glosa{
+    text-align: left;
+    width: 30%;
+}
+
+.td_importe{
+    text-align: center;
+    width: 20%;
+    border-right:  1px solid;
+}
+.nombre_subtotal{
+    text-align: right;
+    font-weight: bold;
+    border-bottom: 1px solid;
+    border-left:  1px solid;
+}
+.td_subtotal{
+    text-align: center;
+    background: #E6E6E6;
+    font-weight: bold;
+    border: 1px solid;
+}
+  /*****************************************/  
+  .margenPrincipal{
+  position:absolute; 
+  border:1px solid #000; 
+  width:95%; 
+  height:95%; 
+  top:20px; 
+  left:20px;	
+}
+.session1_contenedorTitulos{
+  position: absolute;
+  width:90%;
+  top: 30px;
+  border:0px solid #000;	
+}
+.session1_titulo1{
+  font-weight:bold;
+  font-size:17px;	
+}
+.session1_titulo2{
+  font-size:11px;	
+}
+.session1_titulo3{
+  font-size:11px;	
+}
+.session_pie{
+  position:absolute;
+  left:2.5%;
+  top:94.5%;
+  width:95%;
+  border-top:1px solid;	
+}
+.session1_logotipo{
+  position : absolute;	
+  left:5%;
+  top:29px;
+}

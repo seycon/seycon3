@@ -1,0 +1,311 @@
+@charset "utf-8";
+/* CSS Document */
+
+.negro{
+  font-weight:bold;	
+}
+
+.textoEdad{
+  font-weight:bold;
+  color:#333;	
+}
+
+.contenedorframeID{
+  position: fixed;
+  top: 30%;
+  left: 35%;
+  width: 400px;
+  height: 350px;   
+  z-index:4000;
+  visibility:hidden;
+}
+
+.subventana{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 380px;
+  height: 330px;   
+  background: #FFF;
+  color: #333;
+  z-index:0;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2);
+}
+
+.modal_interiorframeID {
+  position: absolute;
+  width: 400px;
+  height: 350px;   
+  background-color: #000;
+  opacity:.50;
+  -moz-opacity: 0.50;
+  filter: alpha(opacity=50);
+  z-index:-1;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  box-shadow: 2px 2px 5px #000;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2); 
+ }
+
+.caption_modalCabecera{
+  position: relative;
+  width: 380px;
+  height: 40px;  
+  background: -moz-linear-gradient(top, rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); 
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(125,126,125,1))
+  , color-stop(100%,rgba(14,14,14,1)));
+  background: -webkit-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); 
+  background: -ms-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); 
+  border-radius: 3px 3px 0 0;
+  -moz-border-radius:  3px 3px 0 0;
+  -webkit-border-radius:  3px 3px 0 0;
+  -khtml-border-radius:  3px 3px 0 0;
+  -webkit-box-shadow: #000 -1px 1px 3px;
+  -moz-box-shadow: #000 -1px 1px 3px;
+  box-shadow: #000 -1px 1px 3px;
+}
+
+.titleHeadCaption{
+  position:absolute;
+  left:20px;
+  font-weight:bold;
+  color:#FFF;
+  top:10px;		
+  text-shadow: 0.1em 0.1em #000; 
+}
+
+.posicionCloseSub{
+  position:absolute;
+  left:92%;
+  top:15px;	
+}
+
+.contenedorPrincipalTrabajador{
+  font-size: 11px;
+  background:#FFF;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  width:100%;
+  top:2px;
+  bottom:10px;
+  position:relative;
+  border:1px solid #CCC;	
+  height:706px;
+}
+
+.subventana_scroll{
+  overflow:auto;
+  position:relative;
+  width:95%;
+  height:200px;
+  top:15px;
+  margin:0 auto;	
+  border:1px solid #E2E2E2;
+}
+
+.subventana_itemtabla{
+  background-color:#FFF;	
+}
+
+.overlays{
+  position:fixed; top:0px; left:0px; width: 100%; height: 100%; 
+  z-index:3009; 
+  background-color: #000;
+  opacity:.50;
+  -moz-opacity: 0.50;
+  filter: alpha(opacity=50);
+  visibility:hidden;
+}
+
+.tablacentral{
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  position:relative;
+  border:1px solid #E2E2E2;
+  width:99%;
+  margin: 0 auto;
+  background:#E2E2E2;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+
+.modal_mensajes{
+  position:fixed;
+  left:38%;
+  top:37%;
+  width:350px;
+  height:160px;
+  background-color:#FFFFFF;
+  visibility:hidden;
+  border:4px solid #DB6104;
+  z-index:500;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  -webkit-box-shadow: #666 3px 4px 3px;
+  -moz-box-shadow: #666 3px 4px 3px;
+  box-shadow: #666 3px 4px 3px;	
+  z-index:4010; 
+}
+
+
+.modal_cabecera{
+  position:relative;
+  width:100%;
+  height:30px;
+  background-color:#DB6104;	
+  border-bottom:2px solid #FF9900;
+  border-radius: 1px 1px 0 0;
+  -moz-border-radius: 1px 1px 0 0;
+  -webkit-border-radius: 1px 1px 0 0;
+  -khtml-border-radius: 1px 1px 0 0;	
+}
+
+.modal_tituloCabecera{
+  position:absolute;
+  top:7px;
+  left:8px;
+  font-size:12px;
+  font-weight:bold;
+  color:#FFF;	
+}
+
+.modal_cerrar{
+  position:absolute;
+  top:7px;
+  left:92%;	
+}
+
+.modal_icono_modal{
+  position:absolute;
+  top:45px;
+  left:20px;
+  width:30px;
+  height:30px;	
+}
+
+.modal_boton1{
+  position:absolute;
+  top:120px;
+  left:250px;
+  width:75px;	
+  height:25px;
+  border: 0.2px solid #DB6104; 
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+}
+
+.modal_boton2{
+  position:absolute;
+  top:280px;
+  left:170px;
+  width:75px;	
+  height:25px;
+}
+
+.gifLoader{
+  position:fixed;
+  top:65%;
+  left:45%;  
+  width:128px;
+  height:25px; 
+  background-image:url(../images/cargando.gif);  
+  z-index:4000;   
+  visibility:visible;
+}
+
+.modal_boton3{
+  position:absolute;
+  top:280px;
+  left:270px;	
+  width:75px;	
+  height:25px;
+}
+
+.boton_modal{
+  background-color:#FFF;
+  width:75px;
+  height:25px;
+  cursor:pointer;	
+}
+
+.modal_contenido{
+  position:absolute;
+  top:50px;
+  left:55px;
+  width:260px;
+  height:65px;
+  border:0px solid;	
+  text-align:left;
+  font-size:11px;
+  color:#333;
+}
+
+.subtituloTrabajador{
+  font-size:12px;	
+}
+
+
+.dimension{
+  font-size:10px;		
+}
+
+.subIngreso{
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  position:relative;
+  background:#E2E2E2;
+  border:1px solid #CCC;
+  width:90%;
+  margin: 0 auto;
+}
+
+.subIngreso2{
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  position:relative;
+  background:#E2E2E2;
+  border:1px solid #CCC;
+  width:90%;
+  margin: 0 auto;
+}
+
+.subIngreso3{
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  position:relative;
+  background:#E2E2E2;
+  border:1px solid #CCC;
+  margin: 0 auto;
+}
+
+
+.overlaysInicio{
+  position:fixed; top:0px; left:0px; width: 100%; height: 100%; 
+  z-index:3009; 
+  background-color: #000;
+  opacity:.95;
+  -moz-opacity: 0.95;
+  filter: alpha(opacity=95);
+  visibility:visible;
+}

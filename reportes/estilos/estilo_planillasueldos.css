@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+.session1_cabeceras_titulos{
+  font-weight:bold;	
+  text-align:center;
+}
+
+.titulos{
+  font-weight:bold;	
+  text-align:center;
+}
+
+.negrita{
+  font-weight:bold;	
+}
+
+.session1_cabecera_horas{
+  font-weight: bold;
+  border-bottom: 1px solid  #000;
+  text-align:center; 	
+}
+
+.session2_titulos{
+  font-weight:bold;
+  text-align:right;
+  border-right: 0px solid #000;  	
+}
+
+.session1_datoempresa{
+  position : absolute;	
+  left:80%;
+  top:20px;
+}
+
+.session1_datoempresa_nit{
+  position : absolute;	
+  left:85%;
+  top:38px;
+}
+
+.session1_logotipo{
+  position : absolute;	
+  left:5%;
+  top:20px;
+}

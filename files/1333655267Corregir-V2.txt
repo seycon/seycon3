@@ -1,0 +1,7 @@
+
+*En trabajador (contrato) Cuando selecciona Sucursal Hay que agregar TODAS.
+
+*Cuando uno le pone la fecha de nacimiento al trabajador que alado aparesca la edad de la persona.
+
+jorge eguez 60807642
+

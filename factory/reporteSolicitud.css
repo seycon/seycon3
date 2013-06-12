@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+
+.letra{
+  font-weight:bold;	
+}
+
+.session1_numTransaccion{
+  position : absolute;	
+  left:80%;
+  top:58px;
+  font-size:13px;
+  font-weight:bold;
+  width:100px;
+  height:30px;
+  text-align:inherit;
+  border:1px solid #000;
+  background:#E2E2E2;
+}
+
+.session1_titulo_num{
+  text-align:center;
+  font-size:12px;	
+  font-weight:bold;
+}
+
+.cabecera{
+  border-left:solid 1px #000;
+  border-bottom:solid 1px #000;
+  border-top:solid 1px #000;
+  font-weight:bold;
+  text-align:center;
+}
+
+.session1_logotipo{
+  position : absolute;	
+  left:5%;
+  top:29px;
+}
+
+.session1_contenedorTitulos{
+  position: absolute;
+  width:90%;
+  top: 30px;
+  border:0px solid #000;	
+}
+
+.session1_titulo1{
+  font-weight:bold;
+  font-size:22px;	
+}
+
+.negrita{
+  font-weight:bold;	
+  text-align:right;
+}
+
+.contenido{
+  border-left:solid 1px #000;
+  border-bottom:solid 1px #000;
+  border-left-style:dotted;
+  border-bottom-style:dotted;	
+}
+
+.borde{
+  position:absolute;
+  border:1px solid #000; 
+  width:95%; 
+  height:95%; 
+  top:20px; 
+  left:20px;	
+}
+
+.session4_pie{
+  position:absolute; 
+  left:2.5%;
+  top:94.5%;
+  width:95%;
+  border-top:1px solid;	
+}
+
+.circule{
+ position:relative;	
+ left:100px;
+ border:1px solid;
+ -webkit-border-radius:  60px;
+ -moz-border-radius: 60px;
+ border-radius: 60px;
+ width: 6%;
+ height: 7%;
+ top:20%;	
+}
+
+.espacio{
+ position:relative;	
+ left:100px;
+ width: 3%;
+ height: 3%;	
+}
+
+.espacio1{
+ position:relative;	
+ left:100px;
+ width: 3%;
+ height: 10%;	
+}
+
+.contenedor1{
+  position:absolute;
+  border:1px solid;
+  left:16%;
+  width:30%;
+  height:30%;
+  top:63%;	
+}
+
+.contenedor2{
+  position:absolute;
+  border:1px solid;
+  left:53%;
+  width:30%;
+  height:30%;	
+  top:63%;
+}
+
+.torta1{
+  position:relative;
+  width:50%;
+  height:8%;
+  margin:0 auto;
+  border:1px solid;	
+  -webkit-border-radius:  6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.torta2{
+  position:relative;
+  width:75%;
+  height:8%;
+  margin:0 auto;
+  border:1px solid;	
+  -webkit-border-radius:  6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.torta3{
+  position:relative;
+  width:100%;
+  height:8%;
+  margin:0 auto;
+  border:1px solid;	
+  -webkit-border-radius:  6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}

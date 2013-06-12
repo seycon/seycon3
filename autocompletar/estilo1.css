@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+.divmenu{                     
+  border-width : 0px 0px 1px 0px;
+  width : 97%;
+  font : 80% "Trebuchet MS", Arial, Helvetica, sans-serif;    
+  color : #fff;
+  position : relative;
+  z-index :420; 
+  height : auto;
+  border-bottom:1px solid #202020;
+  margin-top:2px;
+  background:#333333;
+  margin-left:2px;
+  height : 20px; 
+  behavior : url(PIE.htc);
+  cursor : pointer;
+  font-weight : bold;
+  display : block;
+ 
+}
+             
+.divresultado{
+  position : absolute;
+  width : 144px;
+  margin-top : 0px;
+  visibility : hidden;
+  z-index : 400; 
+  height : auto;
+  background:#333333;
+  -webkit-border-radius : 4px;
+  -moz-border-radius : 4px;
+  border-radius : 4px;
+  -webkit-box-shadow : #000 3px 4px 3px;
+  -moz-box-shadow : #000 3px 4px 3px;
+  box-shadow : #000 3px 4px 3px;
+  display : block;              
+}
+
+.autoLoading{
+  width:22px;
+  height:22px; 
+  background-image:url(../images/autocomplete.gif);  	
+  visibility:hidden;
+}
+

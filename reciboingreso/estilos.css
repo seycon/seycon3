@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.cen{	
+  position:relative;
+  margin:0 auto;
+  width:750px;
+  border:1px solid #CCC; 
+}
+
+.cuerpo{
+  position:relative;
+  margin-top:5px;
+  height:260px; 
+  width:750px;
+  border:0px solid #CCC;
+}
+
+.contorno{
+  border:1px solid #CCC; 	
+  font-size:12px;
+}
+
+.contornoTotal{
+  border:1px solid #CCC; 	
+  font-size:12px;	
+}
+
+.session1_titulo{
+  border:1px solid #CCC; 	
+  font-size:15px;
+  font-weight:bold;	
+}
+
+.fondoContorno{
+  text-align:center;
+  font-weight:bold;	
+  background-color:#CCC;
+  border:1px solid #999; 		
+}
+
+.tituloTexto{
+  font-size:12px;	
+}

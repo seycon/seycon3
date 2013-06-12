@@ -1,0 +1,72 @@
+
+    html {
+        padding: 0px;
+        margin: 0px;
+        background-color:#C6C2C1;
+
+    }
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+    .form_login{	
+        position: absolute;
+        top:95%;
+        left:52%;		
+        width:350px;		
+        margin-left:-200px;
+        height:95px;
+        margin-top:-150px;
+        padding:5px;
+        border-radius:25px 5px 25px 5px;
+        background-color:transparent;
+    }
+
+    form{
+        margin-top:10px;
+        margin-left:60px;
+
+    }
+
+    input[type="button"]{
+        color:#C6C2C1;
+        background:#8E5165;
+        width:100px;
+        height:30px;
+        float:right;
+        border-radius:5px 5px 5px 5px;
+        text-shadow: 3px 2px 2px #000;
+        font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; 
+        box-shadow: 2px 2px 5px  #000;
+        -webkit-box-shadow: 2px 2px 5px  #000;
+        -moz-box-shadow: 2px 2px 5px  #000;
+        filter: shadow(color=#000000, direction=135, strength=2);
+		cursor:pointer;
+    }
+    input{
+        width:150px;
+        height:15px;
+        float:right;		
+        border-radius:5px 5px 5px 5px;
+        box-shadow: 2px 2px 5px  #000;
+        -webkit-box-shadow: 2px 2px 5px  #000;
+        -moz-box-shadow: 2px 2px 5px  #000;
+    }
+    .centro{
+        position:relative;
+        margin:0px auto;
+        height:771px;
+        width:600px;
+        background:#FADBE0;	
+        box-shadow: 2px 2px 5px  #000;
+        -webkit-box-shadow: 2px 2px 5px  #000;
+        -moz-box-shadow: 2px 2px 5px  #000;
+        filter: shadow(color=#000000, direction=135, strength=2);
+    }
+    label{
+        color:#C4C0BF;
+        font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; 
+        font-weight:bold;
+        font-size:14px;
+        text-shadow: 3px 2px 2px #000;
+    }

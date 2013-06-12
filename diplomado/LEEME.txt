@@ -1,0 +1,36 @@
+--------------------------------------------------------------------------
+Nombre del proyecto: Sitio Web del Autocinema Coyote
+Fecha: Marzo del 2013
+Autor: Ronald Salazar
+Email: ronaldsalazar23@gmail.com
+Web: http://ronaldsalazar.com
+--------------------------------------------------------------------------
+Introducción:
+
+Este es un sitio web desarrollado para un autocinema que se encuentra en 
+la ciudad de Mexica el cual al ser un autocinema este revive la forma de
+ver peliculas en los años 80. Al igual que el objetivo del negocio el 
+sitio web tambien presenta un diseño que recuerda esos años pasados.
+
+---------------------------------------------------------------------------
+Pasos para ejecutar:
+
+  1) Servidor local completamente instalado y configurado que contenga php,
+		mysql y apache. Puede ser Xammp o Wammp.
+
+  2) Copiar todo el codigo descargado en sus servidor local.
+
+  3) Ejecutar el script de la Base de datos que se encuentra en:
+	info->database.sql
+
+  4) Configurar el nombre de la base de datos, usuario y contraseña en el 
+	siguiente archivo: lib/database.php
+
+  5) Una vez que pruebes el sitio funcionando correctamente en su servidor
+	local, puedes ingresar como administrador para ingresar peliculas.
+	Para eso debes ir a:
+	http://localhost/nombre_de_la_carpeta_instalada/admin
+	y usar estos credenciales:
+		User: jacquelinekajo
+		Pass: coyote2012
+----------------------------------------------------------------------------

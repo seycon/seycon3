@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+.negro{
+  font-weight:bold;  	
+}
+
+.session1_selectores{
+  position:relative;
+  border:1px solid #C90;
+  border-bottom-color:#000;
+  width:99%;
+  margin: 0 auto;
+  background:#f6a828;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: #999 3px 4px 3px;
+  -moz-box-shadow: #999 3px 4px 3px;
+  box-shadow: #999 3px 4px 3px;
+}
+
+.session2_lateral{
+  position:relative;
+  border:1px solid #EAEAEA;
+  border-bottom-color:#000;
+  width:99%;
+  margin: 0 auto;
+  background:#EAEAEA;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: #999 3px 4px 3px;
+  -moz-box-shadow: #999 3px 4px 3px;
+  box-shadow: #999 3px 4px 3px;
+}
+
+.session2_titulo_lateral{
+ font-weight:bold;
+ border-bottom: 2px solid #000;
+ text-align:center	
+}
+
+.session2_contenedor{
+  position:relative;	
+  width:100%;
+  height:400px;
+  overflow:auto;
+  background:#E2E2E2;	
+}
+
+.session2_cabecera1{
+ text-align:center;
+ font-size:11px;
+ font-weight:bold;
+ background-image:url(../iconos/fondofactura.jpg);
+}
+
+.letra{
+ font-size:10px;
+ text-align:center;	
+}
+

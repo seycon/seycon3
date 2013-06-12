@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+ background-color:#373737;	
+ background-image:url(../img/texturebg.png);	
+}
+
+.contenedor{
+  position:relative;
+  margin:0 auto;
+  top:200px;
+}
+
+.contenPrincipal{
+ position:relative;
+ width:600px;	
+ margin:0 auto;
+}
+
+.subContenedor{
+ position:relative;
+ width:600px;
+ margin:0 auto;
+ background-color:#262626;
+ -webkit-border-radius: 8px;
+ -moz-border-radius: 8px;
+ border-radius: 8px;	
+   -webkit-box-shadow: #000 3px 4px 3px;
+  -moz-box-shadow: #000 3px 4px 3px;
+  box-shadow: #000 3px 4px 3px;
+}
+
+.caja_user{
+ background:url(../img/user.png);
+ background-repeat:no-repeat;
+ background-color:#FFF;	
+ border:0px none;
+ border-radius: 3px 3px 3px 3px;
+ padding: 4px 5px 6px 38px;	
+ font-size: 14px;
+ font-style:italic;
+}
+
+.caja_pass{
+ background:url(../img/llave.png);
+ background-repeat:no-repeat;
+ background-color:#FFF;	
+ border:0px none;
+ border-radius: 3px 3px 3px 3px;
+ padding: 4px 5px 6px 38px;	
+ font-size: 14px;
+ font-style:italic;
+}
+
+.buton{
+  border-radius: 3px 3px 3px 3px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px rgb(51, 51, 51);
+  border: 0px none;
+  font-size:13px;
+  padding:6px 14px;
+  width:67px;
+  font-weight:bold;
+    -webkit-box-shadow: #000 3px 4px 3px;
+  -moz-box-shadow: #000 3px 4px 3px;
+  box-shadow: #000 3px 4px 3px;
+  background: -moz-linear-gradient(top, rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 100%);
+}
+
+.ver_footer{
+ position:relative;
+ width:169px;
+ left:400px;
+ height:19px;
+ background-color:#FFF;
+ -webkit-border-radius: 0px 0px 8px 8px;
+ -moz-border-radius: 0px 0px 8px 8px;
+ border-radius: 0px 0px 8px 8px;	
+   -webkit-box-shadow: #000 3px 4px 3px;
+  -moz-box-shadow: #000 3px 4px 3px;
+  box-shadow: #000 3px 4px 3px;	
+}
+
+.ver_header{
+ position:relative;
+ width:169px;
+ left:400px;
+ height:10px;
+ background-color:#FFF;
+ -webkit-border-radius:8px 8px 0px 0px;
+ -moz-border-radius: 8px 8px 0px 0px;
+ border-radius: 8px 8px 0px 0px;	
+   -webkit-box-shadow: #000 3px 4px 3px;
+  -moz-box-shadow: #000 3px 4px 3px;
+  box-shadow: #000 3px 4px 3px;	
+}
+
+.title{
+ position:relative;
+ margin:0 auto;
+ font-size:11px;
+  left:32px;
+ color:#333;
+ text-shadow: 0.5px 0.5px rgb(51, 51, 51);
+ font-weight:bold;	
+}

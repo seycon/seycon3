@@ -1,0 +1,1070 @@
+@charset "utf-8";
+html {
+  padding: 0px;
+  margin: 0px;
+  background:#F8F1EC;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.divForm{
+  position:relative;
+  width:50%;
+  height:26px;
+  background:#F4F5F5;	
+  margin:0 auto;
+  box-shadow: 2px 2px 5px #000;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5)";
+   -webkit-border-radius:  8px;
+  -moz-border-radius: 8px;
+  border-radius: 0px 0px 15px 15px;  
+  text-align:center;
+  color:#434343;
+  font-size:16px;
+  font-weight:bold;
+  text-shadow: 0.4px 0.4px 0.4px #000;
+}
+
+.divisionContenido{
+ border:2px solid #FFF;	
+  -webkit-border-radius:  8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;  	
+}
+
+
+.textoContenido{
+  text-align: right;
+  color:#F4F5F5;
+  font-family:bold "Trebuchet MS", Arial;
+}
+
+.textoContenido2{
+  text-align: center;
+  color:#F4F5F5;
+  font-family:bold "Trebuchet MS", Arial;
+}
+
+.textoContenido3{
+  text-align: left;
+  color:#F4F5F5;
+  font-family:bold "Trebuchet MS", Arial;
+}
+
+
+.textoContenidoTitle1{
+	height: 30px;
+	font-size:14px;
+	font-weight:bold; 
+	text-shadow: 2px 2px 2px #000;
+	color: #FFF;
+}
+
+.datosUsuario{
+  position:relative;
+  width:100%;
+  height:25px;
+  background-image:url(images/barra.png); 	
+  box-shadow: 2px 2px 5px #000;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5)";
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5);
+  z-index:4000;
+}
+
+
+.listado{
+  position:relative;overflow:auto;
+  height:330px;
+  width:90%;
+  margin:0 auto;	
+   border:2px solid #423433;	
+  -webkit-border-radius:  8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;  
+  background-color:#FFF;
+}
+
+
+.listado1{
+  position:relative;overflow:auto;
+  height:310px;
+  width:90%;
+  margin:0 auto;	
+  border:2px solid #423433;	
+  -webkit-border-radius:  8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;  
+  background-color:#FFF;
+}
+
+.sessionTotal{ 
+  position:relative;
+  height:15px;
+  -webkit-border-radius:  4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;  
+  background-color:#FFF;
+  border:2px solid #423433;
+}
+
+.cuerpo {
+  position:relative;
+  width: 1090px;
+  height:699px;
+  margin: 0 auto;
+  background-color: #423433;   
+   -webkit-border-radius:  8px;
+  -moz-border-radius: 8px;
+  border-radius: 0px 0px 15px 15px;  
+    box-shadow: 2px 2px 5px #000;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5)";
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5);   
+}
+
+.textoInterno{
+  text-align:center;
+  position:relative;
+  top:9px;
+  font-weight:bold;	
+  font-family: Verdana,Arial,SunSans,Regular,sans-serif;
+  font-size:11px;
+  color:#FFF; 
+  text-shadow: 2px 2px 2px #000;
+
+}
+
+ #textoMesa{
+  position:relative;
+  margin:0 auto;
+  top:65px;
+  text-align:center;
+  vertical-align:middle;
+  font-weight:bold;
+  width:85px;
+  height:20px;
+  color:#000;	 
+  font-size:11px;
+  font-family: bold "Trebuchet MS", Arial;
+ }
+ 
+ #textoMesa2{
+  position:relative;
+  margin:0 auto;
+  top:65px;
+  text-align:center;
+  vertical-align:middle;
+  font-weight:bold;
+  width:85px;
+  height:20px;
+  color:#FFF;	 
+  font-size:11px;
+  font-family: bold "Trebuchet MS", Arial;
+ }
+
+
+.textoUserNew{
+  font-weight:bold;	
+  font-family: Bold "Trebuchet MS", Arial;
+  font-size:12px;
+  color:#FFF; 
+  text-align:left;	
+}
+
+.textoUserNew2{
+  font-weight:bold;	
+  font-family: Bold "Trebuchet MS", Arial;
+  font-size:12px;
+  color:#FFF; 
+  text-align:right;	
+  color:#ffa864;
+}
+
+ #opcionMesa{
+  position:relative;
+  margin:0 auto;
+  background:#FFF;
+  background-image:url(images/mesa1.png);
+  background-repeat:no-repeat;
+  width:90%;
+  height:91px;	 
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px; 
+  behavior: url(../PIE.htc);	
+  box-shadow: 2px 2px 5px #000;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5)";
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5);
+  cursor:pointer; 	 
+ }
+ 
+ #opcionMesa:hover{
+  position:relative;
+  margin:0 auto;
+  width:90%;
+  height:89px;	 
+  border:1px solid #22140B;  
+ }
+
+
+#opcionMesa2{
+  position:relative;
+  margin:0 auto;
+  background:#699;
+  background-image:url(images/mesa1.png);
+  background-repeat:no-repeat;
+  width:90%;
+  height:91px;	 
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px; 
+  behavior: url(../PIE.htc);	
+  box-shadow: 2px 2px 5px #000;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5)";
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5);
+  cursor:pointer; 	 
+ }
+ 
+ .referencia1{
+  position:relative;
+  border:1px solid; 
+  width:100%;
+  height:10px; 
+  background-color:#FFF;	 
+ }
+ 
+  .referencia2{
+  position:relative;
+  border:1px solid; 
+  width:100%;
+  height:10px; 
+  background-color:#699;	 
+ }
+ 
+ #opcionMesa2:hover{
+  position:relative;
+  margin:0 auto;
+  width:90%;
+  height:89px;	 
+  border:1px solid #22140B;  
+ }
+.user{
+ background-image:url(images/user.png);	
+  background-repeat:no-repeat;
+}
+
+.contenedorMesasAtencion{
+   position:relative;
+   margin:0 auto;
+   top:15px;
+   width:98%;
+   height:360px;
+   overflow:auto;
+ }
+
+.userClose{
+ background-image:url(images/close.png);		
+ background-repeat:no-repeat;
+}
+
+.textoInternoPrincipal{
+  position:relative;
+  top:7px;
+  left:7px;
+  font-weight:bold;	
+  font-family: Bold "Trebuchet MS", Arial;
+  font-size:12px;
+  color:#423433;	
+}
+
+.pie{
+  position:relative;
+  width:94%;
+  top:24px;
+  text-align:right;
+  font-weight:bold;	
+  font-family: Bold "Trebuchet MS", Arial;
+  font-size:12px;
+  color:#F4F5F5;
+}
+
+.menuNew{
+  font-family: Verdana,arial,SunSans,Regular,sans-serif;
+  position:relative;
+  width:100%;
+  overflow:hidden;
+  max-width:100%;
+  height:36px;	
+  background:url(images/bt1.png);	
+  box-shadow: 2px 2px 5px #000;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5)";
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5);
+}
+
+.contenNew{
+  position:relative;
+  top:20px;
+  width:100%;
+  height:485px;	  
+}
+
+.menuInterno{
+ color:#FFFFFF;
+ font-size:15px;
+ font-weight:bold;
+ border-bottom:2px solid #FFFFFF;
+ border-bottom-style:dotted;
+ text-align:left;	
+ font-family: Bold "Trebuchet MS", Arial;	
+}
+
+.menuInterno:hover{
+ font-size:16px;	
+ cursor:pointer;
+}
+
+.contenMenu{
+  position:relative;
+  left:10px;
+  width:97%;
+  height:480px;
+  background:#423433;
+  box-shadow: 2px 2px 5px #000;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5)";
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5);
+  border-radius:0px 0px 15px 15px;
+}
+
+
+.contenDataNew{
+  position:relative;
+  left:10px;
+  width:97%;
+  height:480px;
+  background-color:#F4F5F5;
+  -webkit-border-radius:  8px;
+  -moz-border-radius: 8px;
+  border-radius: 0px 0px 15px 15px;
+  box-shadow: 2px 2px 5px #000;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5)";
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5);
+}
+
+.contenDataNew2{
+  position:relative;
+  left:10px;
+  width:98%;
+  height:480px;
+  background-color:#F4F5F5;
+  -webkit-border-radius:  8px;
+  -moz-border-radius: 8px;
+  border-radius: 0px 0px 15px 15px;
+  box-shadow: 2px 2px 5px #000;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5)";
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5);
+}
+
+.contenPrincipalNew{
+  position:relative;
+  top:15px;
+  left:15px;
+  width:96.5%;
+  height:445px;
+  background:#776D6E;
+  z-index:3009; 
+}
+
+
+.contenPrincipalNew2{
+  position:relative;
+  width:100%;
+  height:100%;
+  background-image:url(images/fondo.png);
+  -webkit-border-radius:  8px;
+  -moz-border-radius: 8px;
+  border-radius: 0px 0px 15px 15px;
+  z-index:3009; 
+}
+
+.imgInicio{
+  position:relative;top:50px;
+  margin:0 auto;
+  width:99.5%;
+  height:353px;
+  border:1px solid #FFF;
+  background-image:url(images/principal.png);
+  -webkit-border-radius:  8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px #000;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5)";	 	
+}
+
+.tituloNew{
+  float:left;	
+  width:240px;
+  height:36px;
+  background:url(images/bt1.png);	
+  border-right:1px solid #5B5B5B;		
+}
+
+.optionNew{
+  float:left;	
+  width:120px;
+  height:36px;
+  background:url(images/bt1.png);	
+  border-right:1px solid #5B5B5B;	
+}
+
+.optionNew:hover{
+  background:url(images/bt2.png);
+  cursor:pointer;	
+}
+
+.optionNew2{
+ float:left;	
+ width:80px;
+ height:36px;
+ background:url(images/bt1.png);	
+ border-right:1px solid #5B5B5B;	
+}
+
+.optionNew2:hover{
+ background-image:url(images/bt2.png);
+ cursor:pointer;	
+}
+
+.titleNew{
+  position:absolute;
+  top:5px;	
+  width:220px;
+  height:80%;
+  background:url(images/title.png);	
+  -webkit-border-radius:  8px;
+  -moz-border-radius: 8px;
+  border-radius: 0px 15px 15px 0px;
+  box-shadow: 2px 2px 5px #000;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5)";
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5);
+}
+
+.cabecera {
+  position:relative;
+  height:129px;
+  width:100%;
+  max-width:100%;
+  background-color:#F8F1EC;    
+  background-image:url(images/fondo.png);
+}
+
+.cabeceraInterior{
+   position:relative;	
+   margin: 0 auto;	
+   background-image:url(images/cabecera.png); 
+   background-repeat:no-repeat;	
+   width:99%;
+   height:129px;
+}
+
+.msgError{
+  text-align:left;
+  font-size:12px;	
+  visibility:hidden;
+  font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+}
+
+.cebra{    
+  float:left;
+  margin:0px;
+  padding:0px;
+  height: 100%;    
+}
+
+.logo_centro{
+  height:200px;
+  width:688px;
+  float:left;	 	
+  background:#423433;
+}
+
+.logo_centro img{
+  height:240px;
+  width:450px;
+}
+
+.oscuro{
+  width:19px;
+  height:135px;
+  background:#423433;
+  float:left;
+}
+
+.claro{
+  width:19px;
+  height:135px;
+  background:#766C6D;
+  float:left;
+}
+
+.menu_superior{
+    height: 40px;
+    width: 100%;
+    padding: 0px;
+    margin:0px;
+    float:left;
+    background-color: transparent;
+}
+
+.menu_izquierdo{
+  height:500px;
+  width: 300px;
+  padding:0px;
+  margin-left:150px;
+  float: left;
+  background-color:#CFCCCB;
+  border-radius:15px 15px 15px 15px;
+  box-shadow: 2px 2px 5px #000;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5)";
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5);	
+}
+
+.contenido{
+  height:500px;
+  width: 1000px;
+  padding:0px;
+  margin-left: 20px;
+  float: left;
+  background-color: #CFCCCB;
+  border-radius:15px 15px 15px 15px;
+  box-shadow: 2px 2px 5px #000;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5)";
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5);
+}
+
+.titulo{
+  width:100%;
+  height:28px;
+  margin-top:20px;
+  background:#766C6D;
+  color:#FFF;
+  text-align:center;
+  font-size:18px;
+  font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  box-shadow: 2px 2px 5px #000;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5)";
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5);
+}
+
+.imgOpcion{
+ position:absolute;
+ left:21px;
+ top:3.5px;
+ width:44px;
+ height:40px;
+ background-image:url(images/sombra.png);
+ background-repeat:no-repeat;
+}
+
+.opcion_menu{
+  position:relative;
+  width:90%;
+  height:50px;
+  float:left;
+  background:#776D6E;
+  margin: 10px 10px 0px 15px;/*arriba,derecha,abajo,izquierda */
+  border-radius:5px 5px 5px 5px; /* */
+  color:#FFF;
+  font-size:17px;
+  font-weight:bold;
+  text-shadow:0.2em 0.2em  #000;
+  font-family:"Arial Black", Gadget, sans-serif;
+  box-shadow: 2px 2px 5px #000;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5)";
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5);	
+  cursor:pointer;
+}
+
+.opcion_menu p{
+  margin-top:0px;
+  margin-left:30%;
+}
+
+.opcion_menu:hover{
+  background:#423433;	
+}
+
+.opcion_contenido{
+  width:80px;
+  height:20px;
+  background:#423433;
+  border-radius:5px 5px 5px 5px; /* sup. izq,sup. der,inf. der,inf izq*/
+  margin-right: 10px;
+  text-align:center;
+  text-shadow: 2px 2px 2px #000;
+  color:#FFF;
+  font-size:12px;
+  font-weight:bold;
+  font-family:"Arial Black", Gadget, sans-serif;
+  cursor:pointer;
+  float: right;
+  box-shadow: 2px 2px 5px #000;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5)";
+}
+
+.opcion_contenido:hover{
+  cursor:pointer;
+  height:21px;
+   width:82px;
+}
+
+.opcion_buttton{
+  height:20px;
+  background:#423433;
+  border-radius:5px 5px 5px 5px; 
+  margin-right: 10px;
+  text-align:center;
+  text-shadow: 2px 2px 2px #000;
+  color:#FFF;
+  font-size:12px;
+  font-weight:bold;
+  font-family:"Arial Black", Gadget, sans-serif;
+  cursor:pointer;
+  box-shadow: 2px 2px 5px #000;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5)";
+}
+
+.contenido_detalle{
+  overflow:auto;
+  width:100%;
+  height:445px;;
+}
+
+.mesa{
+  margin-top:20px;
+  margin-left:30px;
+  width:100px;
+  height:100px;
+  background-color:#fff;	
+  float:left;
+  border-radius:5px 5px 5px 5px;
+  cursor:pointer;
+}
+
+a img{
+    height: 20px;
+    width: 20px;
+
+}
+
+
+.lateralDerecho{
+  color:#000;
+  border-left:1px solid	 #666;
+  border-bottom:1px solid	 #666;
+}
+
+
+.submenu{
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  position:relative;
+  background:#E2E2E2;
+  border:1px solid #999;
+  width:95%;
+  margin: 0 auto;
+}
+
+.modal1 {
+  position: absolute;
+  top: 15%;
+  left: 35.2%;
+  width: 400px;
+  height: 400px;   
+  background-color: #000;
+  opacity:.50;
+  -moz-opacity: 0.50;
+  filter: alpha(opacity=50);
+  z-index:4000;
+  visibility:visible;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  box-shadow: 2px 2px 5px #000;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2); 
+ }
+
+ .modalInterior1 {
+  position: absolute;
+  top: 16.5%;
+  left: 36.2%;
+  width: 380px;
+  height: 380px;   
+  background:#FFF;
+  z-index:4001;
+  visibility:visible;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px; 
+ }
+
+
+
+
+
+
+
+
+.modal2 {
+  position: absolute;
+  top: 36%;
+  left: 36%;
+  width: 370px;
+  height: 240px;   
+  background-color: #000;
+  opacity:.50;
+  -moz-opacity: 0.50;
+  filter: alpha(opacity=50);
+  z-index:4000;
+  visibility:hidden;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  box-shadow: 2px 2px 5px #000;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2); 
+ }
+ 
+ .modalInterior2 {
+  position: absolute;
+  top: 37.5%;
+  left: 36.8%;
+  width: 350px;
+  height: 220px;   
+  background:#FFF;
+  z-index:4001;
+  visibility:hidden;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px; 
+ }
+ 
+ .headerInterior{
+  position:relative;	
+  margin:0 auto;
+  width:98%;
+  height:20px;
+  top:5px;
+  background-color:#000;	
+  border-radius: 10px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px; 
+  box-shadow: 2px 2px 5px #000;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2); 
+}
+
+.tituloVentanaclave{
+  position:relative;
+  top:1px;
+  left:7px;
+  color:#FFF;	
+  font-weight:bold; 	
+  font-size:13px;
+  font-family: bold "Trebuchet MS", Arial;
+  text-transform:uppercase;
+ }
+
+ .posicionCloseSub{
+	position:absolute;
+	top:42px;
+	left:36px;
+	z-index:4030;
+	cursor:pointer;
+ }
+ 
+  .textoClave{  
+  color:#000;	
+  font-weight:bold; 	
+  font-size:12px;
+  font-family: bold "Trebuchet MS", Arial;
+  text-transform:uppercase;
+ }
+ 
+ .posboton1{
+  position:absolute;	
+  top:80%;
+  left:50%;	
+ }
+ 
+ .posboton2{
+  position:absolute;	
+  top:80%;
+  left:75%;	
+ }
+ 
+ #botonrestaurante{ 
+  border: 0.5px solid #333; 
+  height:22px; 
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: #666 3px 4px 3px;
+  -moz-box-shadow: #666 3px 4px 3px;
+  box-shadow: #666 3px 4px 3px;
+  background-image:url(../images/fondofinal.jpg);	 	  
+  cursor:pointer;
+  color:#FFF;
+  width:75px;
+  font-size:12px;
+  text-align:center;
+  font-weight:bold;
+  font-family: "Trebuchet MS", Arial;
+ }
+
+ #botonrestaurante:hover{ 
+  border: 0.5px solid #333; 
+  height:22px; 
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: #666 3px 4px 3px;
+  -moz-box-shadow: #666 3px 4px 3px;
+  box-shadow: #666 3px 4px 3px;
+  background-image:url(../images/fondofinal.jpg);	 	  
+  cursor:pointer;
+  color:#FFF;
+  font-size:13px;
+  width:75px;
+  text-align:center;
+  font-weight:bold;
+  font-family: "Trebuchet MS", Arial;
+  text-shadow: 0.1em 0.1em #000;	
+ }
+ 
+ 
+ 
+ 
+ .contenedorProductos{
+  position:relative;
+  margin:0 auto;
+  width:90%;
+  height:380px;
+  border:1px solid #3F3D2F;	 
+  background-color:#FFF;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px; 
+  behavior: url(../PIE.htc);	 	 
+  box-shadow: 2px 2px 5px #000;  
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5)";
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5);
+ }
+ 
+ .cabeceraProductos{
+   position:relative;
+   width:100%;
+   height:29px;
+   background-image:url(../images/cabezaproductos.png);
+   background-repeat:no-repeat;	 
+ }
+ 
+  .textocabeceraProductos{
+  position:relative;
+  top:3px;
+  left:40px;
+  vertical-align:middle;
+  font-weight:bold;
+  height:20px;
+  color:#FFF;	 
+  font-size:15px;
+  width:100px;
+  font-family: bold "Trebuchet MS", Arial;
+  text-shadow: 0.1em 0.1em #000;	
+ } 
+ 
+ 
+ .ingresarProducto{
+   position:relative;
+   height:20px;	 
+   width:160px;
+ }
+ 
+ .textoIngresoProducto{ 
+  font-size:12px;
+  font-family: bold "Trebuchet MS", Arial;
+  font-weight:bold;
+ }
+ 
+ 
+ .listaProductos{
+   position:relative;
+   overflow:auto;
+   width:150px;
+   height:300px;
+ }
+ 
+ 
+ 
+ #productos{
+  position:relative;
+  left:-20px;
+  width:86%; 
+  list-style:disc;
+ }
+ 
+ #productos li{
+  font-weight:bold;	 
+  font-family: bold "Trebuchet MS", Arial;
+  font-size:13px;	 
+ }
+ 
+ #productos li:hover{
+  display:block;
+  font-weight:bold;	 
+  font-family: bold "Trebuchet MS", Arial;
+  font-size:14px;	 	 
+  color:#333;
+  cursor:pointer;
+  text-decoration:underline;
+ }
+ 
+ .tablaPedido{
+  position:relative;
+  margin:0 auto;
+  width:95%;
+  height:155px;
+  overflow:auto; 
+  border:1px solid #FFF;
+  background-color:#FFF;  
+   -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px; 
+  behavior: url(../PIE.htc);	
+ }
+ 
+ .tablaSolicitud{
+  position:relative;
+  margin:0 auto;
+  width:100%;
+  height:210px;
+  overflow:auto; 
+  border:1px solid #FFF;
+  background-color:#FFF;  	
+   -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px; 
+  behavior: url(../PIE.htc);	 
+ }
+
+.submenu2{
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  position:relative;
+  background:#E2E2E2;
+  border:1px solid #999;
+  width:100%;
+  margin: 0 auto;
+}
+
+.estadoLLegada{
+  background-color:#F00;
+  position:relative;
+  width:100%;
+  top:1px;
+  height:10px;
+   -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px; 
+  behavior: url(../PIE.htc);
+  box-shadow: 2px 2px 5px #000;  
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5)";
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5);	
+}
+
+.estadoAtendido{
+  background-color:#060;	
+  position:relative;
+  width:100%;
+  top:1px;
+  height:10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px; 
+  behavior: url(../PIE.htc);
+  box-shadow: 2px 2px 5px #000;  
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5)";
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=125,strength=5);
+}
+

@@ -1,0 +1,479 @@
+@charset "utf-8";
+/* CSS Document */
+
+.negro{
+  font-weight:bold;	
+}
+
+.session1_contenedorTitulos{
+  position: absolute;
+  width:90%;
+  height:14%;
+  top: 70px;
+  left:40px;
+  border:1px solid #000;	
+}
+
+.session1_imagen1{
+  position:absolute;
+  top:90px;
+  left:108px;
+  width:100px;	
+  height:70px;
+}
+
+.session1_imagen2{
+  position:absolute;
+  top:90px;
+  left:608px;
+  width:100px;	
+  height:70px;
+  border:1px solid #000;
+}
+
+.session1_subtitulo_1{
+  position:absolute;
+  top:170px;
+  left:60px;
+  width:200px;
+  font-size:11px;
+  font-weight:bold;	
+  text-align:center;
+}
+
+.session1_subtitulo_2{
+  position:absolute;
+  top:183px;
+  left:60px;
+  width:200px;
+  font-size:11px;
+  font-weight:bold;	
+  text-align:center
+}
+
+.session1_subtitulo_3{
+  position:absolute;
+  top:170px;
+  left:560px;
+  width:200px;
+  font-size:11px;
+  font-weight:bold;	
+  text-align:center;
+}
+
+.session1_subtitulo_4{
+  position:absolute;
+  top:183px;
+  left:560px;
+  width:200px;
+  font-size:11px;
+  font-weight:bold;	
+  text-align:center
+}
+
+.session1_titulo1{
+  font-weight:bold;
+  font-size:35px;	
+}
+
+.session1_datosGenerales{
+  position:absolute;	
+  width:90%;
+  top: 223px;
+  left:40px;
+  border:1px solid #000;
+}
+
+.session1_datos{
+  position:absolute;	
+  width:90%;
+  top: 250px;
+  left:40px;
+  border:1px solid #000;	
+}
+
+.session1_tablaDatos{
+	position:relative;
+  top:10px;	
+  border:1px solid #000;	
+}
+
+.subtitulos{
+  font-size:12px;	
+}
+
+.sesion1_titulo_t1{
+  border-top:2px solid #000;
+  border-left:2px solid #000;
+  border-right:1px solid #000;
+  border-bottom:1px solid #000;
+  font-size:12px;	
+  background:#E2E2E2;
+}
+
+.sesion1_titulo_t2{
+  border-top:2px solid #000;
+  border-right:1px solid #000;
+  border-bottom:1px solid #000;
+  font-size:12px;	
+  background:#E2E2E2;
+}
+
+.sesion1_titulo_t2_datos{
+  border-top:2px solid #000;
+  border-right:1px solid #000;
+  border-bottom:1px solid #000;
+  font-size:12px;
+  text-align:center;	
+}
+
+.sesion1_titulo_t3_datos{
+  border-top:2px solid #000;
+  border-right:2px solid #000;
+  border-bottom:1px solid #000;
+  font-size:12px;
+  text-align:center;	
+}
+
+.session1_titulo_t4{
+  border-left:2px solid #000;
+  border-right:1px solid #000;
+  border-bottom:2px solid #000;
+  font-size:12px;
+  background:#E2E2E2;
+}
+
+.session1_titulo_t5{
+  border-right:1px solid #000;
+  border-bottom:2px solid #000;
+  font-size:12px;
+  background:#E2E2E2;
+}
+
+.session1_titulo_t5_datos{
+  border-right:1px solid #000;
+  border-bottom:2px solid #000;
+  font-size:12px;
+  text-align:center;	
+}
+
+.session1_titulo_t6{
+  border-right:2px solid #000;
+  border-bottom:2px solid #000;
+  font-size:12px;
+  text-align:center;
+}
+
+.session1_titulo_t7{
+  border-right:1px solid #000;
+  border-bottom:1px solid #000;
+  border-left:2px solid #000;
+  border-top:1px solid #000;
+  font-size:12px;
+  background:#E2E2E2;
+}
+
+.session1_titulo_t8{
+  border-right:1px solid #000;
+  border-bottom:1px solid #000;
+  border-top:1px solid #000;
+  font-size:12px;
+  text-align:center;	
+}
+
+.session1_titulo_t9{
+  border-right:2px solid #000;
+  border-bottom:1px solid #000;
+  border-top:1px solid #000;
+  font-size:12px;
+  text-align:center;	
+}
+
+.session1_titulo_t10{
+  border-left:2px solid #000;
+  border-right:1px solid #000;
+  font-size:12px;
+  background:#E2E2E2;
+}
+
+.session1_titulo_t11{
+  border-right:1px solid #000;
+  font-size:12px;
+  background:#E2E2E2;
+}
+
+.session1_titulo_t11_datos{
+  border-right:1px solid #000;
+  font-size:12px;
+  text-align:center;
+}
+
+.session1_titulo_t12_datos{
+  border-right:2px solid #000;
+  font-size:12px;
+  text-align:center;
+}
+
+.session2_datosGenerales{
+  position:absolute;	
+  width:90%;
+  top: 418px;
+  left:40px;
+  border:1px solid #000;
+}
+
+.session2_datos{
+  position:absolute;	
+  width:90%;
+  top: 445px;
+  left:40px;
+  border:1px solid #000;	
+}
+
+.session2_titulo_t1{
+ border-left:2px solid #000;
+ border-top:2px solid #000;
+ border-right:1px solid #000;
+ border-bottom:1px solid #000;
+ text-align:center;	
+ font-size:12px;
+}
+
+.session2_titulo_t2{
+ border-top:2px solid #000;
+ border-right:1px solid #000;
+ border-bottom:1px solid #000;
+ text-align:center;	
+ background:#E2E2E2;
+  font-size:12px;
+}
+
+.session2_titulo_t3{
+ border-top:2px solid #000;
+ border-right:2px solid #000;
+ border-bottom:1px solid #000;
+ text-align:center;	
+ background:#E2E2E2;
+ font-size:12px; 
+}
+
+.session2_titulo_t4{
+ border-left:2px solid #000;
+ border-bottom:2px solid #000;
+ border-right:1px solid #000; 
+ font-size:12px; 
+}
+
+.session2_titulo_t5{
+ border-bottom:2px solid #000;
+ border-right:1px solid #000;
+ font-size:12px;
+}
+
+.session2_titulo_t6{
+ border-bottom:2px solid #000;
+ border-right:2px solid #000;
+ font-size:12px; 
+}
+
+.session2_titulo_t7{
+ border-left:2px solid #000;
+ border-bottom:1px solid #000;
+ border-right:1px solid #000;	
+ font-size:12px; 
+}
+
+.session2_titulo_t8{
+ border-bottom:1px solid #000;
+ border-right:1px solid #000;	
+ font-size:12px; 
+}
+
+.session2_titulo_t9{
+ border-bottom:1px solid #000;
+ border-right:2px solid #000;	
+ font-size:12px; 
+}
+
+.session2_titulo_t10{
+ border-bottom:1px solid #000;
+ border-right:1px solid #000;	
+ background:#E2E2E2;
+ font-size:12px; 
+}
+
+.session3_datosGenerales{
+  position:absolute;	
+  width:90%;
+  top: 625px;
+  left:40px;
+  border:1px solid #000;
+}
+
+.session3_bordeLateral{
+  border-left:1px solid #000;
+  border-right:1px solid #000;
+  font-size:12px;	
+}
+
+.session3_datos{
+  position:absolute;	
+  width:90%;
+  top: 660px;
+  left:40px;
+  border:1px solid #000;	
+}
+
+.session3_titulo_t1{
+  border:1px solid;
+  background:#E2E2E2;
+  font-size:12px;
+}
+
+.session3_titulo_t2{
+  border-top:1px solid;
+  border-bottom:1px solid;
+  border-right:1px solid;
+  font-size:12px;
+}
+
+.session3_titulo_t3{
+  border-left:1px solid;
+  border-bottom:1px solid;
+  border-right:1px solid;
+  font-size:12px;
+  background:#E2E2E2;
+}
+
+.session3_titulo_t4{
+  border-left:1px solid;
+  border-bottom:1px solid;
+  border-right:1px solid;
+  font-size:12px;
+}
+
+.session3_titulo_t5{
+  border-right:1px solid;
+  border-bottom:1px solid;
+  font-size:12px;
+}
+
+.session3_titulo_t6{
+  border-right:1px solid;
+  border-bottom:1px solid;
+  font-size:12px;
+  background:#E2E2E2;  
+}
+
+.session4_datosGenerales{
+  position:absolute;	
+  width:90%;
+  top: 855px;
+  left:40px;
+  border:1px solid #000;
+}
+
+.session4_bordeLateral{
+  border-left:1px solid #000;
+  background:#E2E2E2;
+  font-size:12px;	
+}
+
+.session5_datosGenerales{
+  position: absolute;
+  width:90%;
+  top: 70px;
+  left:40px;
+  border:1px solid #000;	
+}
+
+.session5_tabla_t1{
+  border:1px solid;	
+  font-size:12px;
+}
+
+.session5_tabla_t2{
+  border-right:1px solid;
+  border-top:1px solid;
+  border-bottom:1px solid;	
+  font-size:12px;  
+}
+
+.session5_tabla_t3{
+  border-right:1px solid;
+  border-left:1px solid;
+  border-bottom:1px solid;	  	
+  font-size:12px; 
+}
+
+.session5_tabla_t4{
+  border-right:1px solid;
+  border-bottom:1px solid;	  	
+  font-size:12px; 
+}
+
+
+.session6_datosGenerales{
+	position: absolute;
+	width:90%;
+	top: 209px;
+	left:43px;
+	border:1px solid #000;
+}
+
+.session7_datosGenerales{
+  position: absolute;
+  width:90%;
+  top: 270px;
+  left:40px;
+  border:1px solid #000;	
+}
+
+.session7_titulo_t1{
+  font-size:12px;	
+}
+
+.session7_titulo_t2{
+  font-size:12px;	
+  background:#E2E2E2;
+}
+
+.session7_titulo_t3{
+  font-size:12px;
+  border-bottom:1px solid;
+  border-bottom-style:dotted;	
+}
+
+.session8_datosGenerales{
+  position: absolute;
+  width:90%;
+  top: 355px;
+  left:40px;
+  border:1px solid #000;	
+}
+
+.session8_titulo_t1{
+  font-size:10px;
+  border-bottom:1px solid;
+  border-bottom-style:dotted;
+  background:#E2E2E2;	
+}
+
+.session8_titulo_t1_2{
+  font-size:12px;
+  border-bottom:1px solid;
+  border-bottom-style:dotted;
+  background:#E2E2E2;	
+}
+
+.session8_titulo2{
+  font-size:12px;
+  border-bottom:1px solid;
+  border-bottom-style:dotted;	
+  text-align:center;
+}
+
+.session8_titulo3{
+  font-size:12px;
+  text-align:center;	
+}

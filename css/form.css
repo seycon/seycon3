@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ 
+	font-size:12px;
+	color:#000;
+}
+
+.rojo{
+	color:#F33;
+}
+
+.requerido{
+  visibility:hidden;	
+}
+
+
+.contenedorPrincipal{
+	font-size: 11px;
+	background:#FFF;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	width:100%;
+	top:2px;
+	bottom:10px;
+	position:relative;
+	border:1px solid #CCC;
+	height:670px;
+}
+
+.tituloSobreponeFondo{
+	font-size:20px;
+	color:#000;
+	position:relative;
+	width:99.3%;
+	height:88%;
+	top:12%;
+	font-weight:bold;
+	text-align:center;
+}
+
+.mensajeRespuesta{
+  position : relative;
+  float : left;
+  left : 5px;	
+  font-weight : bold;
+  color : #333;
+  font-size:12px;
+}
+
+.negrita{
+  font-weight : bold;
+  font-size : 14px;	
+}
+
+.negro{
+  font-weight : bold;
+  font-size : 12px;	
+}
+
+.optionUsuario{
+  position:relative;
+  margin:0 auto;
+  overflow:auto;
+  height:370px;
+  border:1px solid #E2E2E2;
+  width:85%;	
+}
+
+
+.menujs{
+  position:relative;
+  width:99%;
+  height:35px;
+  background:#E2E2E2;
+  border:1px solid #CCCCCC;	
+  padding: .2em; zoom: 1;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.listajs{
+  list-style: none; 
+  float: left; 
+  position: relative; 
+  top: 1px; 
+  margin: 0 .2em 1px 0; 
+  border-bottom: 0 !important; 
+  padding: 0; 
+  white-space: nowrap;
+  background-color:#F6F6F6;
+  border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  color:#666;
+}
+
+.listajs a{
+  float: left; padding: .5em 1em; text-decoration: none; font-size:9px;	
+}
+
+.listajs:hover{
+  cursor:pointer;
+}
+
+.optionjs{
+  display:none;	
+}
+

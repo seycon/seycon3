@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+.negro{
+  font-weight:bold;	
+}
+
+.cabeceras{
+  border: 1px solid #000;
+  background: #CCC;	
+  font-weight:bold;
+  text-align:center;  
+}
+
+.session1_bordes{
+  border: 1px solid #666;		
+}
+
+.session1_cabeceraIzquierda{
+  background: #CCC;
+  font-weight:bold;	
+}
+
+.session1_bordes2{
+  border-left: 1px solid #666;
+  border-right: 1px solid #666;
+  border-bottom: 1px solid #666;	
+}
+
+.session1_border3{
+  border-right: 1px solid #666;
+  border-bottom: 1px solid #666;	
+}

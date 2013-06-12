@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+.negrita{
+  font-weight:bold;	
+}
+
+.margenPrincipal{
+  position:absolute; 
+  border:1px solid #000; 
+  width:95%; 
+  height:85%; 
+  top:115px; 
+  left:20px;	
+}
+
+.session1_tituloPrincipal{
+  position: absolute;
+  top:14%;
+  width:95%; 
+  left:20px;
+  font-size:12px;	
+}
+
+.session1_textoTitulo{
+  font-size:22px;
+  font-weight:bold;	
+  text-align:center;
+}
+
+.session1_logotipo{
+  position:absolute;	
+  left:5%;
+  top:29px;
+}
+
+.session2_titulos{
+  position: absolute;
+  top:19%;
+  width:95%; 
+  left:20px;
+}
+
+.session2_textos{
+  font-size:12px;
+  font-weight:bold;	
+  text-align:right;
+}
+
+.session2_datos{
+  font-size:11px;	
+}
+
+.session2_division{
+  position:absolute;	
+  left:5%;
+  top:25%;	
+  width:90%;
+  height:2px;
+  background:#000;
+}
+
+.session2_division2{
+  position:absolute;	
+  left:5%;
+  top:78%;	
+  width:90%;
+  height:2px;
+  background:#000;
+}
+
+.session2_contenido{
+  position:absolute;	
+  left:5%;
+  top:27%;	
+  width:90%;
+}
+
+.session2_datosContenido{
+  font-size:11px;  	
+  text-align:justify;
+}
+
+.session3_datosFecha{
+  font-size:12px;	
+}
+
+.session3_fecha{
+  position:absolute;	
+  left:5%;
+  top:79.5%;	
+  width:90%;
+}
+
+.session4_datosFirma{
+  border-top: 1px solid #000;
+  font-size:11px;
+  text-align:center;
+  border-top-style:dotted;  	
+}
+
+.session4_cargo{
+  font-size:11px;
+  text-align:center;	
+}
+
+.session4_firmas{
+  position:absolute;	
+  left:5%;
+  top:81%;	
+  width:90%;	
+}
+
+.session5{
+  position:absolute;	
+  left:5%;
+  top:89%;	
+  width:90%;  	
+}

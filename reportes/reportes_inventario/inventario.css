@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+.titulo{
+  font-size : 18px;
+  font-weight : bold;	  
+}
+
+.tituloTabla{
+  text-align : center;
+  font-weight : bold;	
+  border-right: 1px solid #000;
+  background:#E2E2E2;
+}
+
+.tituloTabla_final{
+  text-align : center;
+  font-weight : bold;
+  background : #E2E2E2;	
+}
+
+.titulos{
+  font-size : 20px;
+  font-weight : bold;	  
+}
+
+.tabla{
+  border: 1px solid #000;  	
+}
+
+.tablaDatos{
+  border-left : 1px solid #000;  	
+  border-right : 1px solid #000;  	
+  border-bottom : 1px solid #000;  	
+}
+
+.tablacontenido_1{
+  border-bottom:1px solid #000;
+  border-bottom-style:dotted;
+  border-left:1px solid #000;
+  border-left-style:dotted;	
+}
+
+.tablacontenidoLateral{
+  border-bottom:1px solid #000;
+  border-bottom-style:dotted;
+}

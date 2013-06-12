@@ -1,0 +1,269 @@
+@charset "utf-8";
+/* CSS Document */
+
+.negrita{
+  font-weight:bold;	
+}
+
+.filaCabecera {
+ background-color:#E6E6E6;
+ border:1px solid;
+ text-align:center;
+ font-weight:bold; 
+}
+
+
+.session3_titu{
+  position:absolute;
+  width:90%;
+  top:50px;
+  bottom:400px;
+}
+
+.titulo_1{
+  font-weight:bold;
+  font-size:11px;	
+}
+
+.titulo_datos{
+  font-size:11px;	
+}
+
+.cebra{
+  background-color:#E2E2E2;	
+}
+
+.session3_datos{
+  position:absolute;	
+  width:89.4%;
+  left:5%;
+  top:100px;
+}
+
+.session4_pie{
+  position:absolute; 
+  left:2.5%;
+  top:94.5%;
+  width:95%;
+  border-top:1px solid;	
+}
+
+.margenprincipal{
+  position:absolute; 
+  border:1px solid #000; 
+  width:95%; 
+  height:95%; 
+  top:20px; 
+  left:20px;	
+}
+
+.session1_cabecera1{
+  border-left:1.5px solid;
+  border-top:1.5px solid;
+  border-bottom:1.5px solid;
+  font-size:12px;
+  text-align:center;	
+  background-color:#E6E6E6;
+  font-weight:bold;
+}
+
+.session1_cabecera2{
+  border-left:1.5px solid;
+  border-bottom:1.5px solid;
+  font-size:12px;
+  text-align:center;	
+  font-weight:bold; 
+}
+
+.session1_cabecera3{
+   border-left:1.5px solid;
+  border-top:1.5px solid;
+  border-bottom:1.5px solid;
+  font-size:12px;
+  text-align:center;	
+  background-color:#E6E6E6;
+  font-weight:bold;
+  border-right:1.5px solid;	
+}
+
+.session1_cabecera4{
+  border-bottom:1.5px solid;
+  border-left:1.5px solid;
+   border-right:1.5px solid;
+  font-size:12px;
+  text-align:center;	
+}
+
+.session1_logotipo{
+  position : absolute;	
+  left:5%;
+  top:29px;
+  width:200px;
+  height:70px;
+}
+
+.session1_contenedorTitulos{
+  position: absolute;
+  width:90%;
+  top: 30px;
+  border:0px solid #000;
+}
+
+.session1_titulo1{
+  font-family: "Trebuchet MS", Arial;	
+  font-weight:bold;
+  font-size:18px;	
+}
+
+.session3_datos1_1{
+  border-left:1.5px solid;
+  border-bottom:1px solid;
+  font-size:11px;	
+  text-align:center;
+}
+
+.session1_subtitulo1{
+  font-size:12px;	
+}
+
+
+.session3_datos1_2{
+  border-left:1px solid;
+  border-bottom:1px solid;
+  font-size:11px;	
+  text-align:center;
+}
+
+.session3_datos1_3{
+  border-left:1px solid;
+  border-right:1.5px solid;
+  border-bottom:1px solid;
+  font-size:11px;	
+  text-align:center;
+}
+
+.session3_datosF1_1{
+  border-left:1.5px solid;
+  font-size:11px;	
+  text-align:center;
+}
+
+.session3_datosF1_2A{
+  font-size:11px;	
+  text-align:center;	
+}
+
+.session3_datosF1_2{
+  border-left:1px solid;
+  font-size:11px;	
+  text-align:center;
+}
+
+.session3_datosF1_3{
+  border-right:1.5px solid;
+  font-size:11px;	
+  text-align:center;
+}
+
+
+.session3_datosTotales1{
+  border-left:1.5px solid;
+  border-bottom:1.5px solid;
+  font-size:11px;	
+  text-align:center;
+  background-color:#E6E6E6;
+}
+
+.session3_datosTotales2{
+  border-left:1.5px solid;
+  border-bottom:1.5px solid;
+  border-right:1.5px solid;
+  font-size:11px;	
+  text-align:center;
+  background-color:#E6E6E6;
+}
+
+.resumen1{
+  position:absolute;
+  width:200px;
+  height:150px;
+  bottom:145px;
+  left:60px;
+}
+
+.resumen2{
+  position:absolute;
+  width:200px;
+  height:150px;
+  bottom:145px;
+  left:310px;
+}
+
+.resumen3{
+  position:absolute;
+  width:200px;
+  height:150px;
+  bottom:145px;
+  left:560px;
+}
+
+.session5_firmas{
+  position:absolute; 
+  left:5.5%;
+  bottom:70px;
+  width:96%;
+}
+
+.session3_resumen1_1{
+  border-left:1.5px solid;
+  border-top:1.5px solid;
+  font-size:11px;		
+  border-bottom:1px solid;
+}
+
+.session3_resumen1_2{
+  border-left:1.5px solid;
+  font-size:11px;		
+  border-bottom:1.5px solid;
+}
+
+.session3_resumen1_3{
+  border-left:1.5px solid;
+  font-size:11px;		
+  border-bottom:1px solid;
+}
+
+.session3_resumen2_1{
+  border-left:1.5px solid;
+  border-right:1.5px solid;
+  border-top:1.5px solid;
+  font-size:11px;		
+  border-bottom:1px solid;
+}
+
+.session3_resumen2_2{
+  border-left:1.5px solid;
+  border-right:1.5px solid;
+  font-size:11px;		
+  border-bottom:1.5px solid;
+}
+
+.session3_resumen2_3{
+  border-left:1.5px solid;
+  border-right:1.5px solid;  
+  font-size:11px;		
+  border-bottom:1px solid;
+}
+
+.session3_resumen2_T{
+  border-left:1.5px solid;
+  border-right:1.5px solid;  
+  font-size:11px;		
+  background-color:#E2E2E2;
+  border-bottom:1.5px solid; 	
+}
+
+
+.session1_titulo2{
+  font-size:13px;	
+}

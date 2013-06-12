@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.contornoRemarcado{
+  border: 1px solid #000;	 
+  background:#E6E6E6;
+  font-weight:bold;
+  text-align:center;
+}
+
+.contornoRemarcados{
+  border: 1px solid #000;	 
+  background:#E6E6E6;
+  font-weight:bold;
+  text-align:center;
+}
+
+.logoempresa{
+ position:absolute;
+ top:10%;
+ left:25%;
+}
+
+.tituloEncabezado{
+  font-weight:bold;
+  font-size:24px;	
+}
+
+.logoempresaimprimir{
+ position:absolute;
+ top:5%;
+ left:8%;
+}
+
+.titulo{
+  text-align: center;
+  font-size:40px;
+  color:#999;
+  font-weight:bold;	
+}
+
+
+.subtitulo{
+  text-align:right;
+  font-weight:bold;
+  text-decoration:underline;	
+}
+
+.tablainicio{
+  border:1px solid #000;
+}
+
+.tablainiciotitulo{
+  border-bottom:1px solid #000;
+  border-left:1px solid #000;
+  border-top:1px solid #000;
+  text-align:center;
+  font-weight:bold;
+  background-color:#E6E6E6;
+}
+
+.tablainiciocontenido{
+  border-bottom:1px solid #000;
+  border-left:1px solid #000;
+}
+
+
+.tablacontenido_1{
+  border-bottom:1px solid #000;
+  border-bottom-style:dotted;
+  border-left:1px solid #000;
+  border-left-style:dotted;	
+}
+
+.tablacontenidoLateral{
+  border-bottom:1px solid #000;
+  border-left:1px solid #000;
+  border-bottom-style:dotted;
+}
+
+.tablacontenidofinal{
+  border-bottom:1px solid #000;
+  border-left:1px solid #000;
+  border-left-style:dotted;
+}
+
+.tablainiciototal{
+  border:1px solid #000;
+  background:#E6E6E6;
+  font-size:12px;
+}
+
+
+.punteadas{
+  border-top:1px solid #000;
+  border-top-style:dotted;	
+  text-align:center;
+}
+
+.negrita{
+ font-weight:bold;	
+}
+
+.margen{
+  border:1px solid #000;
+  width:60%;
+  margin:0 auto;	  
+}
+
+.session_detalle_lizq{
+  border-left:1px solid #000;	
+}
+
+.session_detalle_lder{
+  border-right:1px solid #000;	
+}
+
+.session_detalle_top{
+  border-top: 1px solid #000;	
+}
+
+.session_detalle_textoTotal{
+  border-top: 1px solid #000;
+  font-size:12px;
+  font-weight:bold;	
+}
+
+.session1_numTransaccion{
+  position : absolute;	
+  left:80%;
+  top:58px;
+  font-size:13px;
+  font-weight:bold;
+  width:100px;
+  height:30px;
+  text-align:inherit;
+  border:1px solid #000;
+  background:#E2E2E2;
+}
+
+.session1_titulo_num{
+  text-align:center;
+  font-size:12px;	
+  font-weight:bold;  
+}
+
+.session1_logotipo{
+  position : absolute;	
+  left:5%;
+  top:29px;
+}
+
+.session1_contenedorTitulos{
+  position: absolute;
+  width:90%;
+  top: 30px;
+  border:0px solid #000;	
+}
+
+.session1_titulo1{
+  font-weight:bold;
+  font-size:22px;	
+}
+
+
+.sessionDatosFinales{
+  position:absolute;
+  left:70px;
+  top:90.5%;	
+  width:80%;
+}
+
+.contenidoDatos{
+  font-size:11px;
+  font-weight:bold;
+  text-align:center;	
+}
+
+.session_pie{
+  position:absolute;
+  left:2.5%;
+  top:94.5%;
+  width:95%;
+  border-top:1px solid;	
+}
+
+.margenPrincipal{
+  position:absolute; 
+  border:1px solid #000; 
+  width:95%; 
+  height:95%; 
+  top:20px; 
+  left:20px;	
+}
+
+.sessionFinal_Ciudad{
+  position:absolute;
+  top:92%;
+  left:70px;
+  width:80%;	
+}
+
+.letra_sessionFinal{
+  text-align:center;
+  font-size:11px;
+  font-weight:bold;	
+}

@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+.negro{
+  font-weight:bold;	
+}
+
+.session1_datoempresa{
+  position : absolute;	
+  left:75%;
+  top:38px;
+  width:180px;
+  font-size:14px;
+  font-weight:bold;
+  text-align:right;
+}
+
+.session1_datoempresa_nit{
+  position : absolute;	
+  left:75%;
+  top:58px;
+  font-size:13px;
+  font-weight:bold;
+  width:180px;
+  text-align:right;
+}
+
+.session1_logotipo{
+  position : absolute;	
+  left:5%;
+  top:20px;
+}
+
+.session1_contenedorTitulos{
+  position: absolute;
+  width:90%;
+  top: 50px;
+  border:0px solid #000;	
+}
+
+.session1_titulo1{
+  font-weight:bold;
+  font-size:22px;	
+}
+
+.session2_datosPersonales{
+  position:absolute;	
+  border: 1px solid #000;
+  width:89.4%;
+  left:5%;
+  top:150px;	
+}
+
+.session2_tituloDP{
+  font-weight:bold;
+  font-size:14px;	
+}
+
+.sessiontituloDP{
+  font-weight:bold;
+  font-size:18px;	
+}
+
+.sessionsubTitulos{
+  text-align:right;
+  font-weight:bold;
+  font-size:15px;	
+}
+
+.session2_subTitulos{
+  text-align:right;
+  font-weight:bold;
+  font-size:12px;	
+}
+
+.session2_letraAliteral{
+  text-align:left;
+  font-size:10px;	
+}
+
+.session2_contenido{
+  border: 1px solid #999;
+  font-size:11px;	
+}
+
+.session3_ingresos{
+  position:absolute;	
+  width:90%;
+  left:5%;
+  top:295px;
+}
+
+.session3_contornos{
+  border:1px solid #000;	
+}
+
+.session4_firma{
+  position:absolute;	
+  width:90%;
+  left:5%;
+  top:450px;	
+}
+
+.session4_tituloFirma{
+  font-size:12px;
+  text-align:center;
+  border-top: 1px solid #000;
+  border-top-style:dotted;	
+}

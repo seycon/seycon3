@@ -1,0 +1,421 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+ background-color:#fff;	
+ background-image:url(../images/texturebg.png);	
+ margin:0px 0px 0px 0px;
+}
+
+.header {
+  position:relative;
+  width:100%;
+  height:80px;
+  top:-10px;
+  background-image:url(../images/subfondo.png);
+}
+
+.contemAuxiliar{
+  position:relative;
+  width:640px;
+  padding-top:5px;
+  margin:0 auto;
+  color:#000;
+  font-size:15px;
+  text-align:justify;  
+  min-height:200px;  
+}
+
+
+.contemAuxiliar2{
+  position:relative;
+  width:640px;
+  padding-top:5px;
+  margin:0 auto;
+  color:#000;
+  font-size:15px;
+  text-align:justify; 
+  min-height:340px;  
+}
+
+
+.acopleCabecera{
+   position:relative;
+   width:1200px;
+   height:80px;
+   margin:0 auto;   
+}
+
+.menuAcople{
+  position:relative;
+  width:100%;	
+  top:-10px;
+  background:#fff url(../images/button1.gif);
+  -webkit-box-shadow: #000 3px 4px 3px;
+  -moz-box-shadow: #000 3px 4px 3px;
+  box-shadow: #000 3px 4px 3px;  
+}
+
+.menu1 { position:relative;top:0px; padding:0 0 0 20px; margin:0 auto; width:1200px;list-style:none; height:35px; border-width:0 1px;  z-index:20;}
+.menu1 li {float:left;}
+.menu1 li a {display:block; float:left; height:35px; line-height:35px; color:#aaa; text-decoration:none; font-size:11px; font-family:arial, verdana, sans-serif; font-weight:bold; text-align:center; padding:0 0 0 8px; cursor:pointer;}
+.menu1 li a b {float:left; display:block; padding:0 16px 0 8px;}
+.menu1 li.current a {color:#fff; background:url(../images/button3.gif);}
+.menu1 li.current a b {background:url(../images/button3.gif) no-repeat right top;}
+.menu1 li a:hover {color:#fff; background:#000 url(../images/button2.gif);}
+.menu1 li a:hover b {background:url(../images/button2.gif) no-repeat right top;}
+.menu1 li.current a:hover {color:#fff; background:#000 url(../images/button3.gif); cursor:default;}
+.menu1 li.current a:hover b {background:url(../images/button3.gif) no-repeat right top;}
+
+.mensajeria{
+  position:absolute;
+  top:210px;
+  left:20px;
+  width:85px;
+  height:25px;
+  background-image:url(../images/mail.png);  
+  text-align:right;
+  font-family:Tahoma, Geneva, sans-serif; 
+   -webkit-border-radius: 0px 12px 12px 12px ;
+  -moz-border-radius:0px 12px 12px 12px;
+  border-radius: 0px 12px 12px 12px; 
+    -webkit-box-shadow: #000 3px 4px 3px;
+  -moz-box-shadow: #000 3px 4px 3px;
+  box-shadow: #000 3px 4px 3px;
+  cursor:pointer;	
+}
+
+.monitor{
+  position:absolute;
+  right:105px;
+  top:0px;
+  background-image:url(../images/monitor.png);
+  width:271px;
+  height:311px;
+  z-index:500;	
+  -webkit-border-radius: 0px 12px 12px 12px ;
+  -moz-border-radius:0px 12px 12px 12px;
+  border-radius: 0px 12px 12px 12px;
+  -webkit-box-shadow: #000 3px 4px 3px;
+  -moz-box-shadow: #000 3px 4px 3px;
+  box-shadow: #000 3px 4px 3px;
+}
+
+.contem {
+  position:relative;
+  left:20px; 
+  padding-top:100px;
+  width:650px;
+  min-height:750px;
+}
+
+
+.contemData{
+  position:relative;
+  width:640px;
+  margin:0 auto;
+}
+
+.contemDataTitle{
+  position:relative;
+  width:640px;
+  top:5px;
+  margin:0 auto;
+  color:#666;
+  font-size:24px;
+  font-weight:bold;	
+  border-bottom:1px solid #666;
+  border-bottom-style:dashed;
+  text-shadow: 0.03em 0.03em #000;
+}
+
+.contemDataConten{
+  position:relative;
+  width:640px;
+  top:5px;
+  margin:0 auto;
+  color:#666;
+  font-size:15px;
+  text-align:justify;  
+  min-height:230px;
+}
+
+.titlePrincipal{
+  position:absolute;
+  color:#FFF;
+  left:70px;
+  top:20px;
+  height:30px;
+  font-size:24px;
+  font-weight:900;
+  font-family:"Comic Sans MS", cursive;	
+  text-shadow: 0.05em 0.05em #999999;
+}
+
+.titleSecundario{
+  position:absolute;
+  color:#FFF;
+  left:70px;
+  top:45px;
+  height:15px;
+  font-size:15px;
+  font-weight:900;
+  font-family:"Comic Sans MS", cursive;	
+  text-shadow: 0.05em 0.05em #999999;
+}
+
+.imagenLogo{
+  position:absolute;
+  top:20px;
+  left:5px;
+  width:60px;
+  height:50px;
+}
+
+.contemDataFoter{
+  position:relative;
+  width:640px;	
+  top:2px;
+  border-bottom:1px solid #666;
+  border-bottom-style:dashed;
+  font-size:20px;
+}
+
+.contenAvisos{
+  position:relative;
+  padding-top:55px;
+  padding-bottom:10px;
+  left:15px;	
+  width:236px;
+  min-height:150px;
+  max-height:340px;
+  font-family:"Courier New", Courier, monospace;	
+  text-shadow: 0.05em 0.05em #999999;
+  text-align:justify;
+}
+
+.bordeImagen{
+  -webkit-box-shadow: #000 3px 4px 3px;
+  -moz-box-shadow: #000 3px 4px 3px;
+  box-shadow: #000 3px 4px 3px;
+}
+
+.contemCompartido{
+  position:absolute;
+  width:270px;
+  right:105px;
+  top:350px;
+  height:250px;
+  border:1px solid #E2E2E2;	
+  -webkit-border-radius: 6px 6px 6px 6px ;
+  -moz-border-radius:6px 6px 6px 6px;
+  border-radius: 6px 6px 6px 6px;
+  -webkit-box-shadow: #000 3px 4px 3px;
+  -moz-box-shadow: #000 3px 4px 3px;
+  box-shadow: #000 3px 4px 3px;
+  background:#ECEFF5;
+}
+
+.contemCompartidoI{
+  position:relative;
+  width:267px;
+  overflow:auto;
+  height:200px;
+  margin:0 auto;
+  top:5px;
+}
+
+.datoCompartido{
+  position:relative;
+  width:248px;
+  overflow:auto;
+  height:60px;
+  margin:0 auto;
+  border-bottom:1.5px solid #999;	
+  font-size:12px;	
+  padding-bottom:2px;
+  padding-left:2px;
+}
+
+.contemCompartidoC{
+  position:relative;
+  width:252px;
+  height:30px;
+  top:5px;
+  -webkit-border-radius: 0px 0px 0px 0px ;
+  -moz-border-radius:0px 0px 0px 0px;
+  border-radius: 0px 0px 0px 0px;	
+  background-image:url(../images/fondoalter.png);
+  color:#FFF;
+  font-weight:bold;
+  font-size:14px;
+  font-family:"Comic Sans MS", cursive;	
+  text-shadow: 0.05em 0.05em #999999;
+  padding-top:4px;
+  padding-left:20px;
+}
+
+.avisos1{
+  position:absolute;
+  width:270px;
+  right:100px;
+  top:650px;
+  min-height:150px;
+  border:1px solid #E2E2E2;	
+  -webkit-border-radius: 6px 6px 6px 6px ;
+  -moz-border-radius:6px 6px 6px 6px;
+  border-radius: 6px 6px 6px 6px;
+  -webkit-box-shadow: #000 3px 4px 3px;
+  -moz-box-shadow: #000 3px 4px 3px;
+  box-shadow: #000 3px 4px 3px;
+  background-image:url(../images/hoja.png);
+  opacity:.70;
+  -moz-opacity: 0.70;
+  filter: alpha(opacity=70);
+}
+
+
+
+.cabeaviso1{
+  position:absolute;
+  width:282px;
+  right:95px;
+  top:662px;
+  height:32px;	
+  background-image:url(../images/fondoalter.png);
+  z-index:30;
+  -webkit-box-shadow: #000 3px 4px 3px;
+  -moz-box-shadow: #000 3px 4px 3px;
+  box-shadow: #000 3px 4px 3px;  
+}
+
+.tituloAviso{
+   position:relative;
+   width:208px;
+   height:12px;
+   color:#CCC;
+   font-weight:bold;
+   font-size:15px;	
+   text-align:center;
+   font-family:"Comic Sans MS", cursive;	
+   text-shadow: 0.05em 0.05em #999999;
+}
+
+
+.pie {
+  position:relative;
+  width:100%;
+  height:250px;
+  top:0px;
+  background-image:url(../images/subfondo.png);
+  -webkit-box-shadow: #000 3px -4px 3px;
+  -moz-box-shadow: #000 3px -4px 3px;
+  box-shadow: #000 3px -4px 3px;
+}
+
+.acopleContem{
+   position:relative;
+   width:1100px;
+   top:-90px;
+   margin:0 auto; 
+}
+
+.acoplePie{
+   position:relative;
+   width:1100px;
+   margin:0 auto; 
+}
+
+.author{
+  position:absolute;
+  top:210px;
+  left:0px;
+  width:1100px;
+  height:10px;
+  color:#999;
+  text-align:right;
+  font-family:Tahoma, Geneva, sans-serif;
+}
+
+.subDivision{
+  position:absolute;
+  top:190px;
+  left:0px;
+  width:1100px;
+  height:10px;
+  border-bottom:0.1px solid #D8D8D8;	
+}
+
+.pieSub1{
+  position:absolute;
+  top:50px;
+  left:0px;
+  width:300px;
+  min-height:140px;
+  color:#999;
+  font-family:Tahoma, Geneva, sans-serif;
+  text-align:justify;
+}
+
+
+.titlepieSub2{
+  position:absolute;
+  top:25px;
+  left:325px;
+  width:400px;
+  font-size:15px;	
+  font-weight:bold;
+  color:#FFF;
+  text-align:center;
+  font-family:Tahoma, Geneva, sans-serif;
+}
+
+.pieSub2{
+  position:absolute;
+  top:50px;
+  left:355px;
+  width:400px;
+  min-height:140px;
+  color:#999;
+  font-family:Tahoma, Geneva, sans-serif;
+  text-align:justify;
+  
+}
+
+.titlepieSub1{
+  position:absolute;
+  top:25px;
+  left:00px;
+  width:300px;
+  font-size:15px;	
+  font-weight:bold;
+  color:#FFF;
+  text-align:center;
+  font-family:Tahoma, Geneva, sans-serif;
+}
+
+.titlepieSub3{
+  position:absolute;
+  top:25px;
+  left:800px;
+  width:300px;
+  font-size:15px;	
+  font-weight:bold;
+  color:#FFF;
+  text-align:center;
+  font-family:Tahoma, Geneva, sans-serif;
+}
+
+.pieSub3{
+  position:absolute;
+  top:50px;
+  left:800px;
+  width:300px;
+  min-height:140px;
+  color:#999;
+  font-family:Tahoma, Geneva, sans-serif;
+  text-align:justify;
+}
+
+
+

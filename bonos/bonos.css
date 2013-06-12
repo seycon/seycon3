@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+.negro{
+  font-weight:bold;  	
+}
+
+.seleccion{
+  cursor:pointer;	
+}
+
+.session1_selectores{
+  position:relative;
+  border:1px solid #C90;
+  border-bottom-color:#000;
+  width:99%;
+  margin: 0 auto;
+  background:#f6a828;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: #999 3px 4px 3px;
+  -moz-box-shadow: #999 3px 4px 3px;
+  box-shadow: #999 3px 4px 3px;
+}
+
+.overlays{
+  position:fixed; 
+  top:0px; 
+  left:0px; 
+  width: 100%; 
+  height: 100%; 
+  z-index:3009; 
+  background-color: #000;
+  opacity:.50;
+  -moz-opacity: 0.50;
+  filter: alpha(opacity=50);
+  visibility:hidden;
+}
+
+.gifLoader{
+  position:fixed;
+  top:65%;
+  left:45%;  
+  width:128px;
+  height:25px; 
+  background-image:url(../images/cargando.gif);  
+  z-index:4000;   
+  visibility:hidden;
+}
+
+
+.session2_lateral{
+  position:relative;
+  border:1px solid #999;
+  width:99%;
+  height:500px;
+  margin: 0 auto;
+  background:#EAEAEA;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: #999 2px 2px 3px;
+  -moz-box-shadow: #999 2px 2px 3px;
+  box-shadow: #999 2px 2px 3px;
+}
+
+.session2_contenedor{
+  position:relative;	
+  width:100%;
+  height:500px;
+  overflow:auto;
+  background:#E2E2E2;	
+  border:1px solid #999;
+  -webkit-box-shadow: #999 2px 2px 3px;
+  -moz-box-shadow: #999 2px 2px 3px;
+  box-shadow: #999 2px 2px 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.session2_lateralAguinaldo{
+  position:relative;
+  border:1px solid #999;
+  width:99%;
+  margin: 0 auto;
+  background:#EAEAEA;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: #999 2px 2px 3px;
+  -moz-box-shadow: #999 2px 2px 3px;
+  box-shadow: #999 2px 2px 3px;
+  height:500px;
+}
+
+.session2_titulo_lateral{
+ font-weight:bold;
+ border-bottom: 2px solid #000;
+ text-align:center	
+}
+
+
+
+.session2_contenedorAguinaldo{
+  position:relative;	
+  width:100%;
+  height:500px;
+  overflow:auto;
+  background:#E2E2E2;	
+  border:1px solid #999;
+  -webkit-box-shadow: #999 2px 2px 3px;
+  -moz-box-shadow: #999 2px 2px 3px;
+  box-shadow: #999 2px 2px 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.session2_cabecera1{
+ text-align:center;
+ font-size:11px;
+ font-weight:bold;
+ border:1px solid #999;
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%);
+ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(243,243,243,1)), color-stop(51%,rgba(237,237,237,1)), color-stop(100%,rgba(255,255,255,1)));
+ background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%);
+ background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%
+ ,rgba(255,255,255,1) 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+
+.letra{
+ font-size:10px;
+ text-align:center;	
+}
+

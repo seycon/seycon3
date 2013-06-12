@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { 
+	font-size:12px;
+}
+
+ .contenedorconfiguracion{
+   minwidth:750px; 
+   font-size: 11px;
+   background:#FFF;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   width:74%;
+   top:3px;
+   bottom:10px;
+   position:relative; 
+   border:1px solid #CCC;
+ } 
+
+ .contenedorPrincipal{
+	font-size: 11px;
+	background:#FFF;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	width:100%;
+	top:2px;
+	bottom:10px;
+	position:relative;
+	border:1px solid #CCC;
+	height:670px;
+}
+
+ .mensajeCantidad{
+  font-size:12px;
+  font-weight:bold;
+  font-family: "Trebuchet MS", Arial;	
+  visibility:hidden;
+ }
+
+.tituloSobreponeFondo{
+	font-size:20px;
+	color:#000;
+	position:relative;
+	width:99.3%;
+	height:88%;
+	top:12%;
+	font-weight:bold;
+	text-align:center;
+}
+
+.letras{
+ font-family:Arial, Helvetica, sans-serif;	
+ color:#000;
+ font-size:12px;
+}
+	
+.mensaje{
+  position : relative;
+  float : left;
+  left : 5px;	
+  font-weight : bold;
+  color : #333;
+  font-size:12px;
+}
+
+.menujs{
+  position:relative;
+  width:99%;
+  height:35px;
+  background:#E2E2E2;
+  border:1px solid #CCCCCC;	
+  padding: .2em; zoom: 1;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.listajs{
+  list-style: none; 
+  float: left; 
+  position: relative; 
+  top: 1px; 
+  margin: 0 .2em 1px 0; 
+  border-bottom: 0 !important; 
+  padding: 0; 
+  white-space: nowrap;
+  background-color:#F6F6F6;
+  border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  color:#666;
+}
+
+.listajs a{
+  float: left; padding: .5em 1em; text-decoration: none; font-size:9px;	
+}
+
+.listajs:hover{
+  cursor:pointer;
+}
+
+.optionjs{
+  display:none;	
+}
+
+.gifLoader{
+  position:fixed;
+  top:65%;
+  left:45%;  
+  width:128px;
+  height:25px; 
+  background-image:url(../images/cargando.gif);  
+  z-index:4000;   
+  visibility:hidden;
+}
+
+.gifLoaderconfig{
+  position:fixed;
+  top:65%;
+  left:45%;  
+  width:128px;
+  height:25px; 
+  background-image:url(../images/cargando.gif);  
+  z-index:4000;   
+  visibility:visible;
+}
+
+.overlaysInicio{
+  position:fixed; 
+  top:0px; 
+  left:0px; 
+  width: 100%; 
+  height: 100%; 
+  z-index:3009; 
+  background-color: #000;
+  opacity:.95;
+  -moz-opacity: 0.95;
+  filter: alpha(opacity=95);
+  visibility:visible;
+}
+
+.overlays{
+  position:fixed; 
+  top:0px;
+  left:0px; 
+  width: 100%; 
+  height: 100%; 
+  z-index:3009; 
+  background-color: #000;
+  opacity:.50;
+  -moz-opacity: 0.50;
+  filter: alpha(opacity=50);
+  visibility:hidden;
+}
+
+.rojo{
+	color:#F33;
+}

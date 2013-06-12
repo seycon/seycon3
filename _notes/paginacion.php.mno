@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:idlibrodiario;datatype:int,name:numero;datatype:int,name:moneda;datatype:string,name:transaccion;datatype:string,name:tipotransaccion;datatype:string,name:glosa;datatype:blob,name:tipocambio;datatype:real" />
+</info>

@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+
+.negro{
+  font-weight:bold;	
+}
+
+
+.session1_numTransaccion{
+  position : absolute;	
+  left:80%;
+  top:58px;
+  font-size:13px;
+  font-weight:bold;
+  width:100px;
+  height:30px;
+  text-align:inherit;
+  border:1px solid #000;
+  background:#E2E2E2;
+}
+
+.session1_titulo_num{
+  text-align:center;
+  font-size:12px;	
+  font-weight:bold;
+}
+
+.session1_logotipo{
+  position : absolute;	
+  left:5%;
+  top:29px;
+}
+
+.session1_contenedorTitulos{
+  position: absolute;
+  width:90%;
+  top: 30px;
+  border:0px solid #000;	
+}
+
+.session1_titulo1{
+  font-weight:bold;
+  font-size:22px;	
+}
+
+.session2_datosPersonales{
+  position:absolute;	
+  width:89.4%;
+  left:5%;
+  top:105px;	
+}
+
+.session2_titulos{
+  text-align:right;
+  font-size:12px;
+  font-weight:bold;	
+}
+
+.session2_titulosDatos{
+  font-size:12px;
+}
+
+.session3_datos{
+  position:absolute;	
+  width:89.4%;
+  left:5%;
+  top:210px;	
+}
+
+.session3_titulosCabecera{
+  background: #E2E2E2;  	
+  text-align: center;
+  border-right: 2px solid #000;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  font-weight:bold;
+  font-size:11px;	
+}
+
+.session3_titulosCabecera2{
+  background: #E2E2E2;  	
+  text-align: center;
+  border: 2px solid #000;
+  font-weight:bold;
+  font-size:11px;	
+}
+
+.session3_datos1{
+  border-left:2px solid #000;
+  border-right:1px solid #000;
+  border-bottom: 1px solid #000;  	
+  text-align:center;
+  font-size:10px;
+}
+
+.session3_datos1_1{
+  border-right:1px solid #000;
+  border-bottom: 1px solid #000; 
+    text-align:center;
+  font-size:10px; 	
+}
+
+.session3_datos1_2{
+  border-right:2px solid #000;
+  border-bottom: 1px solid #000; 
+  text-align:center;
+  font-size:10px; 	
+}
+
+.session3_contornoSuperior{
+  border-top:1px solid #000;
+  font-weight:bold;
+  font-size:11px;
+  text-align:right;	
+}
+
+.session3_textoTotal1{
+  border-top:1px solid #000;
+  border-right:2px  solid #000;
+  font-weight:bold;
+  font-size:12px;
+  text-align:right;	
+}
+
+.session3_textoTotal2{
+  border-right:2px  solid #000;
+  font-weight:bold;
+  font-size:12px;
+  text-align:right;	
+}
+
+.session3_subtotal{
+  border-right:2px  solid #000;
+  border-top:1px solid #000;
+  border-bottom:2px solid #000;
+  font-size:10px;
+}
+
+.session3_subtotal_dato{
+  border-right:2px  solid #000;
+  border-bottom:2px solid #000;
+  font-size:10px;
+}
+
+.session3_subtotal_dato2{
+  border-right:2px  solid #000;
+  border-bottom:2px solid #000;
+  font-size:10px;
+  background:#E2E2E2;
+}
+
+.session3_montoLiteral{
+  font-size:12px;	
+}
+
+.session3_tituloFinales{
+  font-size:12px;
+  font-weight:bold;
+  text-align:right;	
+}
+
+.session3_glosa{
+  font-size:12px;
+  border-bottom:1px solid #000;
+  border-bottom-style:dotted;	
+}
+
+.session4_pieFirma{
+  position:absolute;
+  left:5.5%;
+  top:44%;
+  width:90%	
+}
+
+.session4_bordeFirma{
+  border-bottom:1px solid #000;	
+}
+
+.session4_pie{
+  position:absolute; 
+  left:2.5%;
+  top:47.5%;
+  width:95%;
+  border-top:1px solid;	
+}
+
+.borde{
+  position:absolute;
+  border:1px solid #000; 
+  width:95%; 
+  height:47.5%; 
+  top:20px; 
+  left:20px;	
+}

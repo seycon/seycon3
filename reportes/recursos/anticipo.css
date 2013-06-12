@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+
+.negro{
+ font-weight:bold;	
+}
+
+.contornoRemarcados{
+  border: 1px solid #000;	 
+  background:#E6E6E6;
+  font-weight:bold;
+  text-align:center;
+}
+
+
+.session1_numTransaccion{
+  position : absolute;	
+  left:80%;
+  top:58px;
+  font-size:13px;
+  font-weight:bold;
+  width:100px;
+  height:30px;
+  text-align:inherit;
+  border:1px solid #000;
+  background:#E2E2E2;
+}
+
+.session1_titulo_num{
+  text-align:center;
+  font-size:12px;	
+  font-weight:bold;
+}
+
+.session1_logotipo{
+  position : absolute;	
+  left:5%;
+  top:29px;
+}
+
+.session1_contenedorTitulos{
+  position: absolute;
+  width:90%;
+  top: 30px;
+  border:0px solid #000;	
+}
+
+.session1_titulo1{
+  font-weight:bold;
+  font-size:22px;	
+}
+
+.session1_general{
+  position:absolute; 
+  top:10%;
+  width:86%;
+  text-align:center;	
+}
+
+.session1_titulo{
+  position:absolute;
+  left:2%;
+  top:4%;
+  font-size:28px;
+  width:100%; 
+  text-align:center;
+  color:#999;	
+}
+
+.session1_sucursal{
+  position:absolute;	
+  left:78%;
+  top:90px;
+  font-weight:bold;
+  width:130px;
+  height:20px;
+}
+
+.session1_tituloSucursal{
+ font-size:8px;
+ font-weight:bold;
+ text-align:center;	
+}
+
+.session1_texto_titulo{
+  text-align: center;
+  font-size:40px;
+  color:#999;
+  font-weight:bold;	
+}
+
+.session2_datos{
+  position:absolute;
+  left:2%;
+  top:15%;
+  width:90%;	
+}
+
+.session2_subtitulos{
+  font-size:12px;
+  font-weight:bold;
+  text-align:right;	
+}
+
+.session2_subtitulos12{
+  font-size:16px;
+  font-weight:bold;
+  text-align:right;	
+}
+
+.session2_contenido{
+  border:1px solid #000;
+  font-size:12px;	
+}
+
+.session2_contenido1{
+  border:1px solid #000;
+  font-size:16px;	
+}
+
+.session2_contenido1_1{
+  border:1px solid #000;
+  background:#E6E6E6;
+  font-size:16px;	
+}
+
+.session2_subtitulos1{
+  font-size:12px;
+  font-weight:bold;	
+}
+
+.margen{
+  position:absolute; 
+  border:1px solid #000; 
+  width:95%; 
+  height:44%; 
+  top:20px; 
+  left:20px;	
+}
+
+.session5_firmas{
+  position:absolute; 
+  left:5.5%;
+  top:39%;
+  width:96%;
+}
+
+.titulosNegros{
+  font-weight:bold;	
+  font-size:12px;
+}
+
+.titulosNegros2{
+  font-weight:bold;	
+  font-size:14px;
+}
+
+.session5_pie{
+  position:absolute; 
+  left:2.5%;
+  top:44%;
+  width:95%;
+  border-top:1px solid;	
+}

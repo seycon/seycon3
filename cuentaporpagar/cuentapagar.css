@@ -1,0 +1,637 @@
+@charset "utf-8";
+/* CSS Document */
+
+.negro{
+  font-weight:bold;	
+}
+
+.ocultar{
+  display:none;	
+}
+
+.fondoCeldaBarra{
+  background-image:url(../iconos/fondofactura.jpg);	
+  font-size: 12px;
+  font-weight:bold;
+  background-color: #e2ebef;
+  color: #34484E;
+  font-family: "Trebuchet MS", Arial;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-right-color: #666;
+  border-bottom-color: #666;
+  height:22px;
+}
+
+.overlays{
+  position:fixed; 
+  top:0px; 
+  left:0px; 
+  width: 100%; 
+  height: 100%; 
+  z-index:3009; 
+  background-color: #000;
+  opacity:.50;
+  -moz-opacity: 0.50;
+  filter: alpha(opacity=50);
+  visibility:hidden;
+}
+
+.modal_vendidos{
+  position: fixed;
+  top: 38%;
+  left: 32%;
+  height: 90px;  
+  width:35%; 
+  background: #FFF;
+  border:3px solid #DB6104;
+  color: #333;
+  z-index:4000;
+  visibility:hidden;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2);
+}
+
+.gifLoader{
+  position:fixed;
+  top:65%;
+  left:45%;  
+  width:128px;
+  height:25px; 
+  background-image:url(../images/cargando.gif);  
+  z-index:4000;   
+  visibility:hidden;
+}
+	
+.caption_modals{
+  position:absolute;
+  top:0px; 
+  height:25px; 
+  width:100%; 
+  background:#DB6104; 
+  cursor:move; 
+  border:1px solid #DB6104; 
+  margin-left:-1px;
+  border-radius: 4px 4px 0 0;
+  -moz-border-radius:  4px 4px 0 0;
+  -webkit-border-radius:  4px 4px 0 0;
+  -khtml-border-radius:  4px 4px 0 0;
+}
+
+.tituloSubVentana{
+  text-align:center;
+  font-weight:bold;
+  color:#FFF;
+  font-size:12px;  	
+}
+
+.caption_modal {
+  position:absolute;
+  top:0px; 
+  height:25px; 
+  width:100%; 
+  background:url(iconos/fondotit.jpg); 
+  cursor:move; 
+  border:1px solid #777; 
+  margin-left:-1px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+}
+
+.session1_numTransaccion{
+  position : absolute;	
+  left:80%;
+  top:58px;
+  font-size:13px;
+  font-weight:bold;
+  width:100px;
+  height:30px;
+  text-align:inherit;
+  border:1px solid #000;
+  background:#E2E2E2;
+}
+
+.session1_titulo_num{
+  text-align:center;
+  font-size:12px;	
+  font-weight:bold;
+}
+
+.session1_logotipo{
+  position : absolute;	
+  left:5%;
+  top:29px;
+}
+
+.session1_contenedorTitulos{
+  position: absolute;
+  width:90%;
+  top: 30px;
+  border:0px solid #000;	
+}
+
+.session1_titulo1{
+  font-weight:bold;
+  font-size:22px;	
+}
+
+.session1_sucursal{
+  position:absolute;	
+  left:78%;
+  top:90px;
+  font-weight:bold;
+  width:130px;
+  height:20px;
+}
+
+.session1_tituloSucursal{
+ font-size:8px;
+ font-weight:bold;
+ text-align:center;	
+}
+
+.session2_datosPersonales{
+  position:absolute;	
+  width:89.4%;
+  left:5%;
+  top:125px;	
+}
+
+.session2_titulos{
+  text-align:right;
+  font-size:12px;
+  font-weight:bold;	
+}
+
+.session2_titulosDatos{
+  font-size:12px;
+}
+
+.session3_datos{
+  position:absolute;	
+  width:89.4%;
+  left:5%;
+  top:210px;	
+}
+
+.session3_titulosCabecera{
+  background: #E2E2E2;  	
+  text-align: center;
+  border-right: 2px solid #000;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  font-weight:bold;
+  font-size:11px;	
+}
+
+.session3_titulosCabecera2{
+  background: #E2E2E2;  	
+  text-align: center;
+  border: 2px solid #000;
+  font-weight:bold;
+  font-size:11px;	
+}
+
+.session3_datos1{
+  border-left:2px solid #000;
+  border-right:1px solid #000;
+  border-bottom: 2px solid #000;  	
+  text-align:center;
+  font-size:12px;
+}
+
+.session3_datos1_1{
+  border-right:1px solid #000;
+  border-bottom: 2px solid #000; 
+  text-align:center;
+  font-size:12px; 	
+}
+
+.session3_datos1_2{
+  border-right:2px solid #000;
+  border-bottom: 1px solid #000; 
+  text-align:center;
+  font-size:10px; 	
+}
+
+.session3_contornoSuperior{
+  font-weight:bold;
+  font-size:11px;
+  text-align:right;	
+}
+
+.session3_textoTotal1{
+  border-top:1px solid #000;
+  border-right:2px  solid #000;
+  font-weight:bold;
+  font-size:12px;
+  text-align:right;	
+}
+
+.session3_textoTotal2{
+  border-right:2px  solid #000;
+  font-weight:bold;
+  font-size:12px;
+  text-align:right;	
+}
+
+.session3_subtotal{
+  border-right:2px  solid #000;
+  border-top:1px solid #000;
+  border-bottom:2px solid #000;
+  font-size:10px;
+}
+
+.session3_subtotal_dato{
+  border-right:2px  solid #000;
+  border-bottom:2px solid #000;
+  font-size:10px;
+}
+
+.session3_subtotal_dato2{
+  border-right:2px  solid #000;
+  border-bottom:2px solid #000;
+  font-size:10px;
+  background:#E2E2E2;
+}
+
+.session3_montoLiteral{
+  font-size:12px;	
+}
+
+.session3_tituloFinales{
+  font-size:12px;
+  font-weight:bold;
+  text-align:right;	
+}
+
+.session3_glosa{
+  font-size:12px;
+  border-bottom:1px solid #000;
+  border-bottom-style:dotted;	
+}
+
+.session4_pieFirma{
+  position:absolute;
+  left:5.5%;
+  top:44%;
+  width:90%	
+}
+
+.session4_bordeFirma{
+  border-bottom:1px solid #000;	
+}
+
+.session4_pie{
+  position:absolute; 
+  left:2.5%;
+  top:47.5%;
+  width:95%;
+  border-top:1px solid;	
+}
+
+.borde{
+  position:absolute;
+  border:1px solid #000; 
+  width:95%; 
+  height:47.5%; 
+  top:20px; 
+  left:20px;	
+}
+
+.modal_mensajes{
+  position:fixed;
+  left:38%;
+  top:37%;
+  width:350px;
+  height:160px;
+  background-color:#FFFFFF;
+  visibility:hidden;
+  border:4px solid #DB6104;
+  z-index:500;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  -webkit-box-shadow: #666 3px 4px 3px;
+  -moz-box-shadow: #666 3px 4px 3px;
+  box-shadow: #666 3px 4px 3px;	
+  z-index:4010; 
+}
+
+.modal_cabecera{
+  position:relative;
+  width:100%;
+  height:30px;
+  background-color:#DB6104;	
+  border-bottom:2px solid #FF9900;
+  border-radius: 1px 1px 0 0;
+  -moz-border-radius: 1px 1px 0 0;
+  -webkit-border-radius: 1px 1px 0 0;
+  -khtml-border-radius: 1px 1px 0 0;	
+}
+
+.modal_tituloCabecera{
+  position:absolute;
+  top:7px;
+  left:8px;
+  font-size:12px;
+  font-weight:bold;
+  color:#FFF;	
+}
+
+.modal_cerrar{
+  position:absolute;
+  top:7px;
+  left:92%;	
+}
+
+.modal_icono_modal{
+  position:absolute;
+  top:45px;
+  left:20px;
+  width:30px;
+  height:30px;	
+}
+
+.modal_boton1{
+  position:absolute;
+  top:120px;
+  left:250px;
+  width:75px;	
+  height:25px;
+  border: 0.2px solid #DB6104; 
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.boton_modal{
+  background-color:#FFF;
+  width:75px;
+  height:25px;
+  cursor:pointer;	
+}
+
+.modal_contenido{
+  position:absolute;
+  top:50px;
+  left:55px;
+  width:260px;
+  height:65px;
+  border:0px solid;	
+  text-align:left;
+  font-size:11px;
+  color:#333;
+}
+
+.posicionClose{
+  position:absolute;
+  left:96%;
+  top:20%;	
+}
+
+
+.contenedorframeID{
+  position: fixed;
+  top: 16%;
+  left: 38%;
+  width: 290px;
+  height: 480px;   
+  z-index:4000;
+  visibility:hidden;
+}
+
+
+.modal_interiorframeID {
+  position: absolute;
+  width: 290px;
+  height: 480px;   
+  background-color: #000;
+  opacity:.50;
+  -moz-opacity: 0.50;
+  filter: alpha(opacity=50);
+  z-index:-1;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  box-shadow: 2px 2px 5px #000;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2); 
+}
+
+.subVentana {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 270px;
+  height: 460px;   
+  background: #FFF;
+  color: #333;
+  z-index:0;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2);
+}
+
+.caption_modalCabecera{
+  position: relative;
+  width: 270px;
+  height: 40px;  
+  background: -moz-linear-gradient(top, rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); 
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(125,126,125,1))
+  , color-stop(100%,rgba(14,14,14,1)));
+  background: -webkit-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); 
+  background: -ms-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); 
+  border-radius: 3px 3px 0 0;
+  -moz-border-radius:  3px 3px 0 0;
+  -webkit-border-radius:  3px 3px 0 0;
+  -khtml-border-radius:  3px 3px 0 0;
+  -webkit-box-shadow: #000 -1px 1px 3px;
+  -moz-box-shadow: #000 -1px 1px 3px;
+  box-shadow: #000 -1px 1px 3px;
+}
+
+
+.titleHeadCaption{
+  position:absolute;
+  left:20px;
+  font-weight:bold;
+  color:#FFF;
+  top:10px;	
+  text-shadow: 0.1em 0.1em #000;	
+}
+
+.posicionCloseSub{
+  position:absolute;
+  left:92%;
+  top:15px;	
+}
+
+.boton1_subventana{
+  position:absolute;
+  top:420px;
+  left:40px;
+  width:75px;	
+  height:25px;
+}
+
+.boton2_subventana{
+  position:absolute;
+  top:420px;
+  left:140px;
+  width:75px;	
+  height:25px;
+}
+
+.tablacentral{
+  position:relative;
+  border:1px solid #CCC;
+  width:80%;
+  background:#E2E2E2;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+
+.titulo_subprincipal1{
+  background-color: #FE9901;
+  border:2px solid #DB6104;	
+  text-align:center;
+  font-size:13px;
+  font-weight:bold;
+  color:#FFF;	
+}
+
+
+.contenidoReporte{
+  position:relative;
+  width:100%;
+  height:400px;
+  overflow:auto;
+  background:#FFF;
+  border:2px solid #000;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.cabeceraReporte{
+  background: -moz-linear-gradient(top, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%);
+ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(69,72,77,1)), color-stop(100%,rgba(0,0,0,1)));
+ background: -webkit-linear-gradient(top, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%);
+ background: -o-linear-gradient(top, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
+ font-family: "Trebuchet MS", Arial;
+ text-transform: uppercase;	
+ color:#FFF;
+ font-size: 16px;	
+ border-right-width: 1px;
+ border-bottom-width: 1px;
+ border-right-style: solid;
+ border-bottom-style: solid;
+ border-right-color: #000;
+ border-bottom-color: #000;
+}
+
+
+.fondoCelda{
+  background: -moz-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); 	
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1))
+  , color-stop(100%,rgba(204,204,204,1)));
+  background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+  background: -o-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );	
+  font-size: 12px;
+  font-weight:bold;
+  background-color: #e2ebef;
+  color: #34484E;
+  font-family: "Trebuchet MS", Arial;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-right-color: #666;
+  border-bottom-color: #666;
+  height:22px;
+}
+
+.fondoCelda2{
+  background-image:url(../iconos/celda2.png);	
+  font-size: 12px;
+  font-weight:bold;
+  background-color: #e2ebef;
+  color: #34484E;
+  font-family: "Trebuchet MS", Arial;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-right-color: #666;
+  border-bottom-color: #666;
+  height:22px;
+}
+
+
+.barra{
+  position:relative;
+  height:15px;
+  vertical-align:middle;
+  background-image: -moz-linear-gradient(left, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%);   
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(69,72,77,1)), color-stop(100%,rgba(0,0,0,1)));
+  background-image: linear-gradient(to right, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%);
+  background-image: -ms-linear-gradient(left, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
+  color:#FFF;
+  text-align:right;
+  font-weight:bold;	
+  border-radius: 0px 3px 3px 0px;
+  -webkit-border-radius: 0px 3px 3px 0px;
+  -moz-border-radius: 0px 3px 3px 0px;
+  box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  -moz-box-shadow: 1px 1px 3px #000;
+  filter: shadow(color=#000, direction=135, strength=2);    
+}
+
+.barraSecundaria{
+  position:relative;
+  height:15px;
+  vertical-align:middle;
+  background-image: -moz-linear-gradient(left, rgba(213,206,166,1) 0%, rgba(201,193,144,1) 40%, rgba(183,173,112,1) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(213,206,166,1)), color-stop(40%,rgba(201,193,144,1)), color-stop(100%,rgba(183,173,112,1)));  
+  background-image: linear-gradient(to right, rgba(213,206,166,1) 0%,rgba(201,193,144,1) 40%,rgba(183,173,112,1) 100%);
+  background-image: -ms-linear-gradient(left, rgba(213,206,166,1) 0%,rgba(201,193,144,1) 40%,rgba(183,173,112,1) 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5cea6', endColorstr='#b7ad70',GradientType=1 );
+  color:#FFF;
+  text-align:right;
+  font-weight:bold;	
+  border-radius: 0px 3px 3px 0px;
+  -webkit-border-radius: 0px 3px 3px 0px;
+  -moz-border-radius: 0px 3px 3px 0px;
+  box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  -moz-box-shadow: 1px 1px 3px #000;
+  filter: shadow(color=#000, direction=135, strength=2);    
+}
+

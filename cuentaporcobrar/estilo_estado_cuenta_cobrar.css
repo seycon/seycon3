@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+.algo{
+    
+}
+html, body{
+    padding: 0;
+    margin: 0 auto;
+}
+
+/**********************************************************/
+.tabla_reporte{
+    width: 100%;    
+    
+    border-collapse: collapse;    
+    font-size: 12px;
+}
+.td_titulo{
+ width: 20%;   
+ text-align: center;
+ border:1px solid;
+ background: #E6E6E6;
+ font-weight: bold;
+ 
+}
+.td_fecha{
+    text-align: center;
+    border-left: 1px solid;
+}
+.td_nota{
+    text-align: center;    
+}
+.td_importe{
+    text-align: center;
+}
+.td_aporte{
+    text-align: center;    
+}
+.td_saldo_actual{
+    text-align: center;   
+    border-right:1px solid;
+}
+.td_titulo_saldo{
+    text-align: center;
+}
+.tr_relleno{
+    background: #EAEAEA;
+}
+/*************************************************************/
+.tabla_totales{
+    width: 100%;
+    border-top:  1px solid;
+    border-collapse: collapse;
+}
+.tabla_totales td{
+    width: 20%;
+    font-size: 12px;    
+    
+}
+.tabla_totales .td_titulo_total{
+    text-align: right;    
+    font-weight: bold;
+}
+.tabla_totales .td_total{
+    text-align: center;     
+    font-weight: bolder;
+    background: #E6E6E6;
+    border: 1px solid;
+    font-weight: bold;
+}
+
+/*************************************/
+.margenPrincipal{
+position:absolute; 
+border:1px solid #000; 
+width:95%; 
+height:95%; 
+top:20px; 
+left:20px;	
+}
+.session1_contenedorTitulos{
+position: absolute;
+width:90%;
+top: 30px;
+border:0px solid #000;	
+}
+
+.session1_titulo1{
+font-weight:bold;
+font-size:20px;	
+}
+
+.session1_titulo2{
+font-size:15px;	
+}
+
+.session1_titulo3{
+font-size:13px;	
+}
+
+.session_pie{
+position:absolute;
+left:2.5%;
+top:94.5%;
+width:95%;
+border-top:1px solid;	
+}
+
+.session1_logotipo{
+position : absolute;	
+left:5%;
+top:29px;
+}
+

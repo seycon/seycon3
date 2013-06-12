@@ -1,0 +1,548 @@
+@charset "utf-8";
+/* CSS Document */
+
+.botongeneralPlanillas{    
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -khtml-border-radius: 8px;
+	cursor:pointer;
+	font-size:13px;
+	color:#FFF;
+	height: 25px;
+	background:url(fondotabla.jpg);
+	border: 1px solid #666;
+	width:130px;
+}
+
+
+.botonseycon{ 
+  border: 1px solid #333; 
+  height:22px; 
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: #666 3px 4px 3px;
+  -moz-box-shadow: #666 3px 4px 3px;
+  box-shadow: #666 3px 4px 3px;
+  background:url(iconos/fondofactura.jpg);	  
+  z-index:1;	
+  cursor:pointer;  
+}
+
+.cabecera{ 
+  background:#F7B547;
+  border:1px solid #F7B547;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px; 
+}
+
+.titulos {
+  font-size: 12px;
+  font-weight:bold;
+}
+
+.centro{
+  text-align : center;	
+}
+	
+
+.contenido{
+  background:#E2E2E2;
+  position:relative;
+  margin: 0 auto;
+  width:70%;
+  border:1px solid #CCC;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px; 
+}
+
+
+.contenedorPrincipal{
+  minwidth:750px; 
+  font-size: 11px;
+  background:#FFF;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  width:74%;
+  top:60px;
+  bottom:10px;
+  position:relative;
+  border:1px solid #CCC;
+  margin: 0 auto;
+}
+
+
+.tituloFondo{
+  background:url(iconos/fondofactura.jpg);  
+  border:solid 1px #CCC;
+  position:relative;    
+  height:35px;
+  width:100%;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  top:5%;
+  font-weight:bold;
+}
+
+.tituloSobreponeFondo{
+  font-size:20px;
+  color:#000;
+  position:relative;
+  width:99.3%;
+  height:88%;
+  top:12%;
+  font-weight:bold;
+  text-align:center;
+}
+
+.plancuenta{
+  background:url(images/plancuenta.png);
+  height:28px;
+  cursor:pointer;
+}
+
+#objetotabla tr:hover{
+  background:#CFF;
+}
+
+#objetotabla tr td:hover{
+  background:#CFF;
+}
+
+.letrastabla {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index:1001;
+  opacity:.75;
+  -moz-opacity: 0.75;
+  filter: alpha(opacity=75);
+  visibility:hidden;
+}
+	
+.modal {
+  position: fixed;   
+  background: #CCC;
+  left:25%;
+  top:25%;
+  width:400px;
+  height:100px;
+  overflow:hidden;
+  color: #333;
+  z-index:1002;
+  visibility:hidden;
+  -webkit-box-shadow: #999 5px 8px 5px;
+  -moz-box-shadow: #999 5px 8px 5px;
+  box-shadow: #999 5px 8px 5px;
+  behavior: url(PIE.htc);
+}
+	
+.caption_modal {
+  position:absolute;
+  top:0px; 
+  height:25px; 
+  width:100%; 
+  background:url(iconos/fondotit.jpg); 
+  cursor:move; 
+  border:1px solid #777; 
+  margin-left:-1px;
+}
+
+
+.hiden{
+  display:none;
+}
+
+
+.botongeneral{    
+  behavior: url('border-radius.htc');
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  cursor:pointer;
+  font-size:13px;
+  color:#FFF;
+  width:75px;
+  height: 25px;
+  background:url(iconos/fondotabla.jpg);
+  border: 1px solid #666;
+}
+
+.botongeneral1 {      
+  behavior: url('border-radius.htc');
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  cursor:pointer;
+  font-size:13px;
+  color:#FFF;
+  width:75px;
+  height: 25px;
+  background:url(fondotabla.jpg);
+  border: 1px solid #666;
+}
+
+.botongeneral11 {
+  behavior: url('border-radius.htc');
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  cursor:pointer;
+  font-size:13px;
+  color:#FFF;
+  width:75px;
+  height: 25px;
+  background:url(fondotabla.jpg);
+  border: 1px solid #666;
+}
+
+negrita {
+	font-weight: bold;
+}
+#negretia {
+	font-weight: bold;
+}
+
+.modal_mensajes{
+  position:fixed;
+  left:38%;
+  top:37%;
+  width:350px;
+  height:160px;
+  background-color:#FFFFFF;
+  visibility:hidden;
+  border:4px solid #DB6104;
+  z-index:500;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  -webkit-box-shadow: #666 3px 4px 3px;
+  -moz-box-shadow: #666 3px 4px 3px;
+  box-shadow: #666 3px 4px 3px;	
+  z-index:4010; 
+}
+
+.modal_cabecera{
+  position:relative;
+  width:100%;
+  height:30px;
+  background-color:#DB6104;	
+  border-bottom:2px solid #FF9900;
+  border-radius: 1px 1px 0 0;
+  -moz-border-radius: 1px 1px 0 0;
+  -webkit-border-radius: 1px 1px 0 0;
+  -khtml-border-radius: 1px 1px 0 0;	
+}
+
+.modal_tituloCabecera{
+  position:absolute;
+  top:7px;
+  left:8px;
+  font-size:12px;
+  font-weight:bold;
+  color:#FFF;	
+}
+
+.modal_cerrar{
+  position:absolute;
+  top:7px;
+  left:92%;	
+}
+
+.modal_icono_modal{
+  position:absolute;
+  top:45px;
+  left:20px;
+  width:30px;
+  height:30px;	
+}
+
+.modal_boton1{
+  position:absolute;
+  top:120px;
+  left:250px;
+  width:75px;	
+  height:25px;
+  border: 0.2px solid #DB6104; 
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.modal_boton2{
+  position:absolute;
+  top:120px;
+  left:165px;
+  width:75px;	
+  height:25px;
+  border: 0.2px solid #DB6104; 
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.boton_modal{
+  background-color:#FFF;
+  width:75px;
+  height:25px;
+  cursor:pointer;	
+}
+
+.modal_contenido{
+  position:absolute;
+  top:50px;
+  left:55px;
+  width:260px;
+  height:65px;
+  border:0px solid;	
+  text-align:left;
+  font-size:11px;
+  color:#333;
+}
+
+.overlays{
+  position:fixed; 
+  top:0px; 
+  left:0px; 
+  width: 100%; 
+  height: 100%; 
+  z-index:3009; 
+  background-color: #000;
+  opacity:.50;
+  -moz-opacity: 0.50;
+  filter: alpha(opacity=50);
+  visibility:hidden;
+}
+
+.cursorDelete{
+  cursor:pointer;	
+}
+
+.modal_vendidos{
+  position: fixed;
+  top: 38%;
+  left: 32%;
+  height: 90px;  
+  width:35%; 
+  background: #FFF;
+  border:3px solid #DB6104;
+  color: #333;
+  z-index:4000;
+  visibility:hidden;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  box-shadow: 2px 2px 5px #000;
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  filter: shadow(color=#000, direction=135, strength=2);
+}
+
+
+.caption_modals{
+  position:absolute;
+  top:0px; 
+  height:25px; 
+  width:100%; 
+  background:#DB6104; 
+  cursor:move; 
+  border:1px solid #DB6104; 
+  margin-left:-1px;
+  border-radius: 4px 4px 0 0;
+  -moz-border-radius:  4px 4px 0 0;
+  -webkit-border-radius:  4px 4px 0 0;
+  -khtml-border-radius:  4px 4px 0 0;
+}
+
+.posicionClose{
+  position:absolute;
+  left:96%;
+  top:20%;	
+}
+
+.tituloSubVentana{
+  text-align:center;
+  font-weight:bold;
+  color:#FFF;
+  font-size:12px;  	
+}
+
+
+
+
+
+
+
+.borde1Listar{
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 180px;
+  height: 32px;   
+  background-color: #000;
+  opacity:.50;
+  -moz-opacity: 0.50;
+  filter: alpha(opacity=50);
+  z-index:300;
+  border-radius:14px;
+  -moz-border-radius:14px;
+  -webkit-border-radius:14px;
+  -khtml-border-radius:14px;
+  box-shadow: 1px 0.5px 2px #000;
+  -webkit-box-shadow: 1px 0.5px 2px #000;
+  -moz-box-shadow: 1px 0.5px 2px #000;
+  filter: shadow(color=#000, direction=135, strength=2);
+}
+
+.borde2Listar{
+  position:absolute;
+  top:5.8px;
+  left:5px;
+  width:138px;
+  height:20px;   
+  color:#FFF;
+  background-color:#000;
+  z-index:311;
+  border-radius:10px;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  -khtml-border-radius:10px;
+  border:0px;
+  padding-right:28px;
+  padding-left:6px;  
+}
+
+.contenedorSearch{
+  position:absolute;
+  left:230px;
+  top:10px;	
+
+}
+
+.contenedorSearch2{
+  position:absolute;
+  left:360px;
+  top:10px;	
+
+}
+
+.iconSearch{
+  position:absolute;
+  left:155px;
+  top:6px;
+  width:22px;
+  height:22px;
+  background:#FFF;	
+  z-index:315;
+  color:#000;
+  border-radius: 14px;
+  -moz-border-radius:14px ;
+  -webkit-border-radius: 14px;
+  -khtml-border-radius: 14px;
+  cursor:pointer;
+  background-image:url(images/buscarListado.png);
+  background-repeat:no-repeat;
+    box-shadow: 1px 0.5px 2px #000;
+  -webkit-box-shadow: 1px 0.5px 2px #000;
+  -moz-box-shadow: 1px 0.5px 2px #000;
+  filter: shadow(color=#000, direction=135, strength=2);
+  border:0px solid;
+}
+
+
+.listadoCombo1{
+  position:absolute;
+  left:30px;
+  top:10px;	
+}
+
+.listadoCombo2{
+  position:absolute;
+  left:160px;
+  top:10px;		
+}
+
+.borde2Combo1{
+  position:absolute;
+  top:5.8px;
+  left:5px;
+  width:172px;
+  height:23px;   
+  color:#FFF;
+  background-color:#000;
+  z-index:311;
+  border:none;
+
+  border-radius: 10px;
+  -moz-border-radius:10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  padding-left:6px;
+
+}
+
+
+.contenedorFechaListar{
+  position:absolute;
+  left:10px;
+  top:10px;			
+}
+
+
+.interiorLF{
+  position:absolute;
+  width:120px;
+  height:22px;
+  top:4.8px;
+  left:6px;
+  border:1px solid #000;
+  text-align:center;
+  background-color:#000;
+  border-radius: 10px;
+  -moz-border-radius:10px ;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  z-index:311;
+}
+
+.borde1UsuarioLF{
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 133px;
+  height: 32px;   
+  background-color: #000;
+  opacity:.50;
+  -moz-opacity: 0.50;
+  filter: alpha(opacity=50);
+  z-index:300;
+  border-radius:14px;
+  -moz-border-radius:14px;
+  -webkit-border-radius:14px;
+  -khtml-border-radius:14px;
+  box-shadow: 1px 0.5px 2px #000;
+  -webkit-box-shadow: 1px 0.5px 2px #000;
+  -moz-box-shadow: 1px 0.5px 2px #000;
+  filter: shadow(color=#000, direction=135, strength=2); 	
+}

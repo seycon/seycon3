@@ -1,0 +1,54 @@
+
+/* ------ mobilynotes
+-----------------------------------------------*/
+
+#content {
+position:absolute;
+width:260px;
+right:90px;
+top:18px;
+z-index:600;
+}
+
+.wrap {
+float:left;
+clear:both;
+width:280px;
+margin-bottom:80px;
+}
+
+.notes_img {
+position:relative;
+float:left;
+clear:both;
+width:200px;
+height:200px;
+}
+
+.note {
+position:absolute;
+top:0;
+left:0;
+padding:10px;
+background:#fff;
+border:1px solid #D8D8D8;
+width:200px;
+}
+
+
+ul.listNotes,
+ul.listNotes li {
+display:block;
+list-style:none;
+padding:0;
+margin:0;
+}
+
+a {
+color:#fff;
+}
+
+a img {
+border:none;
+}
+

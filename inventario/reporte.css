@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+.negro{
+  font-weight:bold;	
+}
+
+
+.borde{
+  position:absolute;
+  border:1px solid #000; 
+  width:95%; 
+  height:95%; 
+  top:20px; 
+  left:20px;	
+}
+
+
+.session1_numTransaccion{
+  position : absolute;	
+  left:68%;
+  top:38px;
+  font-size:13px;
+  font-weight:bold;
+  width:220px;
+  text-align:center;
+}
+
+.session1_titulo_num{
+  text-align:center;
+  font-size:12px;	
+  font-weight:bold;
+}
+
+.session1_logotipo{
+  position : absolute;	
+  left:5%;
+  top:34px;
+  width:200px;
+  height:70px;
+}
+
+.session1_contenedorTitulos{
+  position: absolute;
+  width:90%;
+  top: 46px;
+  border:0px solid #000;
+}
+
+.session1_titulo1{
+  font-family: "Trebuchet MS", Arial;	
+  font-weight:bold;
+  font-size:18px;	
+}
+
+.session1_titulo1_1{
+  font-family: "Trebuchet MS", Arial;
+  font-weight:bold;
+  font-size:12px;	
+}
+
+.session3_datos{
+  position:absolute;	
+  width:89.4%;
+  left:5%;
+  top:115px;
+}
+
+.session4_pie{
+  position:absolute; 
+  left:2.5%;
+  top:94.5%;
+  width:95%;
+  border-top:1px solid;	
+}
+
+.bordeCabecera{
+  border-left:1.5px solid;
+  border-top:1.5px solid;
+  border-bottom:1.5px solid;	
+  font-size:11px;
+  font-weight:bold;	
+  text-align:center;
+}
+
+.bordeCabecera_cerrar{
+  border-left:1.5px solid;
+  border-top:1.5px solid;
+  border-bottom:1.5px solid;	
+  border-right:1.5px solid;
+  font-size:11px;
+  font-weight:bold;	
+  text-align:center;
+}
+
+.borderSubCabecera{
+  border-left:1.5px solid;
+  border-top:1.5px solid;	
+  font-size:10px;
+  font-weight:bold;	
+  text-align:center;
+}
+
+.borderSubCabecera_cerrar{
+  border-left:1.5px solid;
+  border-top:1.5px solid;	
+  border-right:1.5px solid;
+  font-size:10px;
+  font-weight:bold;	
+  text-align:center;
+}
+
+.borderSubCabecera2{
+  border-left:1.5px solid;
+  border-top:1.5px solid;	
+  font-size:11px;
+  font-weight:bold;	
+  text-align:center;
+  background-color:#E3E3E3;
+}
+
+.borderSubCabecera_cerrar2{
+  border-left:1.5px solid;
+  border-top:1.5px solid;	
+  border-right:1.5px solid;
+  font-size:11px;
+  font-weight:bold;	
+  text-align:center;
+  background-color:#E3E3E3;
+}
+
+.titulo_1{
+  font-weight:bold;
+  font-size:11px;	
+}
+
+.titulo_datos{
+  font-size:11px;	
+}
+
+.session3_datos1{
+  border-left:1.5px solid;
+  font-size:9px;	
+}
+
+.session3_datos1_1{
+  border-left:1.5px solid;
+  font-size:9px;	
+  text-align:center;
+}
+
+
+.session3_datos2{
+  border-left:1px solid;
+  font-size:9px;	
+}
+
+.session3_datos3{
+  border-left:1px solid;
+  border-right:1.5px solid;
+  font-size:9px;	
+}
+
+.cebra{
+  background-color:#E2E2E2;	
+}
+
+.cerrar{
+  border-bottom:1.5px solid;	
+}
